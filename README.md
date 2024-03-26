@@ -14,7 +14,7 @@ npm install
 
 # Quickly start
 
-Let's try to locate the (SushiSwap fault)[https://rekt.news/badgers-digg-sushi/].
+Let's try to locate the [SushiSwap fault](https://rekt.news/badgers-digg-sushi/).
 Perform fault localization with DAppFL using the following command:
 ```shell
 $ python locate.py \
