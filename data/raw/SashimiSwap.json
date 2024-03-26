@@ -1,0 +1,51 @@
+{
+  "name": "SashimiSwap",
+  "cause": "Logic Error",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2021/12/30 9:06",
+    "transaction_hash": [
+		["0xd6a816cc291b24267c03c23c730a84a2699f32a7cf714c8cbe3e47321c76b08f"]
+    ],
+    "location": [
+      "0xe4fe6a45f354e845f954cddee6084603cedb9410##35497:225"
+    ],
+    "detection": {
+      "time": "2021/12/31 3:16",
+      "link": "https://twitter.com/SASHIMISASHIMI5/status/1476935418138353667"
+    },
+    "disclosure": {
+      "time": "2021/12/31 6:46",
+      "link": "https://www.tuoluo.cn/article/detail-10093322.html"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0xdaf8ffaa049872ff44960ce587d3decaf90cb8839aa5c7cbb74c79a45cf89b99",
+      "0xe693d82e9b1a03763a0a918a56bcb107bea6297d77d5fb7a70925fed0c00df74",
+      "0xa9aaccb54872a5bb213a9a3118d0d0a9065c312e9a1f2cc4efb1b61239d4f1ff",
+      "0xe8b2d5a1c27ede4624b00445a3210dd1244f9da3a04dfa7d063f28d97bedf1a4",
+      "0x780b14621a13b8f527b2d5f370e3af377f835541b48191365e0d4b4fa3301bff",
+      "0x01e6371b60c2ca36b3673bab9edf4caeba03e6dc756c317a90f856c5735cd2c4",
+      "0x874ab50bcf68828fa94d6f69edcefd7ac290a8da838fc5c9efe3afd6ed795399",
+      "0x59d888866ffecbb2dd04c0d2af91262dba7893459c81dde4ff4997bc9727f7bb",
+      "0x71b31e71b53021b250a15c647c63cd39e01f56a731863114821261073399022f",
+      "0x082bb3bc4e4cb819295c6355c53c86267e432e76eb5514b28e78dfe3381d84a4",
+      "0x79e8149a5f5746d29a50126cb82240c719d74af7b51269c49eb7f9c1802949c9",
+      "0x9c4b02dddf75955da7e933fea58a47fad5df7c63a1effd74db6a2203fbada981",
+      "0xe4478774546b463aa03e64c62a2679611631ae2769745c1a3233d2dbd6ce9331",
+      "0x926df23477b128122fed061f20e205a5316b36288ca6f5bf14c9198493d31d22",
+      "0xbc5bd406a45810d064c74fc4eee71b248c95f10223f3d91bf7ec0014c177651f",
+      "0x6f6fab49b1f0a7659590b23fd957a2303ce9f7d89b4a4d9b736a7aefbdb9c5f0",
+      "0x88026b965c5619628b284c72ff90ae66786ca8e348b9661d7615eece886f7b5c",
+      "0xf97805ba0f2869bcbd677c5973d20673c0f936849ecd6d57d50286897c1f7582",
+      "0x61d6f50df3ea0f49f5ddb06db0d16d8331488f391b0ddcdec31e45905c8e1259",
+      "0xd8d588774cfab7cd5c2b55f6a77c9cd1037b4cb023f44eb8023af4ce265f1b52",
+      "0x4f50eb00e0ab7e759149b047e7b66b2de8c806db0dbc1b9d69f8b5475ac62757",
+      "0xe84a34c47b93f0ceb4588f75802a1eef8a4352dcee5f08c892bbf31c9684ce30",
+      "0x5a94204c391b970adfec54886766307e11bc72cc41644060de748163a1c53abf",
+      "0x6bd0bb8dfcb0109ab6bf5943a42ede1d79762bd4a51933ec3f494ff712e5efc5",
+      "0x2fa0abd137aba2c1dea22cf0d35319d448af5a53402b85245af481cdaa40f2e9"
+    ]
+  }
+}

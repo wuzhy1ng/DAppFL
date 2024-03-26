@@ -1,0 +1,41 @@
+{
+  "name": "JAY",
+  "cause": "Reentrancy",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2022/12/29 05:02",
+    "transaction_hash": [
+      ["0xd4fafa1261f6e4f9c8543228a67caf9d02811e4ad3058a2714323964a8db61f6"]
+    ],
+    "location": [
+      "0xf2919d1d80aff2940274014bef534f7791906ff2##36622:459"
+    ],
+    "detection": {
+      "time": "2022/12/29 08:00",
+      "link": "https://twitter.com/BlockSecTeam/status/1608372475225866240"
+    },
+    "disclosure": {
+      "time": "2022/12/29 08:00",
+      "link": "https://twitter.com/BlockSecTeam/status/1608372475225866240"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0xb949a8a7b9c9a8e21ebf33daf0d32b5a1f810f410de8a672288a7a7660505536",
+      "0x3528ab1f940eb99d694dd4d8a06828ce70e94599e2eed5432b52698edf8f3c24",
+      "0x18f04d457b9876ff5868b12724b93abd8b4dc4160f1ac7f416ee5de1cade8abd",
+      "0xa68eabc49bf6743b030dfd1334a519c0531883a6901fc7abd2efc91fc9e62941",
+      "0xbf294c76fb501f9daf6df162b703f2b88fc955cee01209236ca48c39451f3977",
+      "0xa91624b9f1c2a3a55539df1d6ec3220b405e3831d1474500f6c8266eafb328b5",
+      "0x3aa126ded66cea7a78d10e63e2feec93d27ef9c570ee87b4bca5f24e9d133b67",
+      "0xd3775266daf2ce0dba3f8cb7e7fa7a74314682377b03e0f0b0747bca0a55237c",
+      "0x8097f316c41aee6fc21afbf1972e29df0f701679a488d4eb5623f1ba162fa18c",
+      "0xe3848b40e26d77bb6c016b801cbd47620c6e6b8bf9158cf9171a56355db2fece",
+      "0xa97729bd440f324b615ec3c0e1e4718c621a434c06fc0c1aa50316a6af2e5b85",
+      "0x960170326c0321b50e04633692063a26b1349f92524cd11dc3c92d005d3d5037",
+      "0x7f6db47ca169cf371392e5e2664d6be05c25f8ff9d66e95d0320168663ac2df9",
+      "0xf03a6a67cd37753540675ecfded69c424c7eded213107090d775c40064a851d1",
+      "0x79022288839cec61ad69e1c444a485b7a82e1e5b487658baf9fa8365fc58832f"
+    ]
+  }
+}

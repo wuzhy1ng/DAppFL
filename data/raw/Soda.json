@@ -1,0 +1,52 @@
+{
+  "name": "Soda",
+  "cause": "Wrong variable",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2020/9/20 12:06",
+    "transaction_hash": [
+      ["0x79d70f5abc3ca1b212823d12e2eae3f5217e2ce43b5d1f3c374ea8697c0e608d"],
+      ["0xa0e2e302ad937238da062e5b62b1e1e97420e5dff3dab19eb5555a952d714934"],
+      ["0xcc472cb107ad17b8edbbde06b55d33bf92aaa6176997df02dca116cfdc784493"],
+      ["0xcfc7c7a14c66fce063afa263a7f77d6a00253f00fc4b557c667d775aab7f0551"],
+      ["0x9b5310f845a612835c80e0d8b782be3c01932a8256b76ab0d7f1bf2c15666f5e"],
+      ["0xac4418b6a0ef422d3635298c4e6a88430c6b24b7a591ba35cdcf796c389f3aa2"],
+      ["0x07e5568b71f1f4d9234d5925473c598865c5ee1800348c1c4b044c6f0223f308"],
+      ["0x5767b29a60d64ce56182d1f8bc212b766e1c21a3ed52d1ad678dbc6d3e43401a"],
+      ["0x19c04bc04ee8117abfdf0c9301787b12b27f3c5c13308b4f66711a8f0ecacc62"],
+      ["0x48d22ea24c1ae707b8b17ca2a3ea81a1aee64a075d93e5bff81a7370e2cacea7"],
+      ["0x6c23497b945b5e614cc3caa2df07c921fe13e189a8b061678f397063047294b9"]
+    ],
+    "location": [
+      "0x164315ac326d7d4caf71067f7b2de45f95c03f8c##21957:94"
+    ],
+    "detection": {
+      "time": "",
+      "link": ""
+    },
+    "disclosure": {
+      "time": "2020/9/20 14:35",
+      "link": "https://twitter.com/Soda_finance/status/1307689921629560833"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x7d18f3f286c973d5fc29c24804d9601ec1a7da5e84e4bc4d98568d747c5211e1",
+      "0x9ff03287aee932ddb311b87f32716432995a40da41be5878c7fc599f16c5ea6b",
+      "0x6e1b3e98be5a650c841bfec1c663bdd504d79f20aa07ab1d7ae0c8dc3931d45f",
+      "0x9beba93c4f68dab2ec865ae2f62d4d20b196dc6943beb4d1d844a31096c02858",
+      "0xfb693073e37fa48c5e36ba4fbaf1a202ef98d9e7c36b6046dc6ab17d56395133",
+      "0x72de500efaa53122a73be86bd2ea67815cb679c78bbb212fa6d1068a1decad34",
+      "0x91602c7bba673065cb96c067b1215d1a18b3e914bc7339b1f9f017631b54aea6",
+      "0x16e13656044f610d0c5437d5215a8f91c780a00d77ac5767d4235fccfc4e1ca4",
+      "0x3b5eaa51a255a9b794bd25a6de6f88679b5f7e2c2cd7c349f1ac6b01b65250dc",
+      "0x735982f8abc4179a0b1fc22e18a024843dd90ee9726ba3bb1a321da863fce082",
+      "0x0fed4b0c2a55472757438f7d58bca688aadcd5c45e0d83a50bd40d99c0dc6648",
+      "0x4ed0554c8e99ce0127777242208ab2d7c1481a6ba5dcf4850c53be0857ef4749",
+      "0xdc49f6e4f71274c38b6c39cbe3d5d6fa9079c9a2cc9cdf1653a3550ebb4b7da3",
+      "0x5bf73cd13defd438ccd03894da592fe4b53e6ab4ac22ed0921cf0bb435007f01",
+      "0x04958af5a0b7cf0a3319985e96647318a2659a15bd3f791fdb5c9506925a5cea",
+      "0xfadf4503cc35848d6aac657c648b573c0d02ef551352988b3daf772547f55866"
+    ]
+  }
+}

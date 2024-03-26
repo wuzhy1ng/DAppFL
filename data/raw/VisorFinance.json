@@ -1,0 +1,39 @@
+{
+  "name": "Visor Finance",
+  "cause": "logic bug",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2021/12/21 14:18",
+    "transaction_hash": [
+      [
+        "0x27f2210536553392cf180c0b37055b3dc92094a5d585d7d2a51f790c9145e47c",
+        "0x69272d8c84d67d1da2f6425b339192fa472898dce936f24818fda415c1c1ff3f"
+      ]
+    ],
+    "location": [
+      "0xc9f27a50f82571c1c8423a42970613b8dbda14ef#contracts/RewardsHypervisor.sol#1171:865"
+    ],
+    "detection": {
+      "time": "2021/12/21 14:58",
+      "link": "https://twitter.com/GammaStrategies/status/1473306777131405314"
+    },
+    "disclosure": {
+      "time": "2021/12/21 15:57",
+      "link": "https://twitter.com/storming0x/status/1473321779250802693"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x24e276cfc0cbd280a71da775ae35da39a107b97f819a3b2cd7cb40e9cc3afb82",
+      "0xcf762a8f4502cbeb4ab79626cc5a7c65c6dde5b487c8fa9b58f421e10e4807e8",
+      "0x0f27686101cbe22c79f6c313251e4680866a752d123215d9838374168e3344bd",
+      "0x73d98f4b07f63a65c229fc87f7f21c7576c4f9903890321471df838e2b74bf1b",
+      "0xe78597998a8ffea3e4995a199bb971ef1247746547eeea58f91819dd77ae1c4f",
+      "0x3425acd106ef5f78d9416f0c47940ea70d9aa383aa33d8ee3d13c4eac3126b38",
+      "0x8091389ee234cbefc3bf0a4c8cce5fd820f77eb586f300560d135b9804b5d055",
+      "0xa62079f9fb5084b18c2be6403fdc05726d3ef68b9e6ab6976922b18c7adeee01",
+      "0x20d821fe2752fefc90c9a659a4bf623f5bbc66ef144a0253be4911ed0b015678",
+      "0x49ce73ff1d197ebbb0387ad5a82780984567dd3b269c6475e81988009922c5ed"
+    ]
+  }
+}

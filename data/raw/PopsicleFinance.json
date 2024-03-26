@@ -1,0 +1,59 @@
+{
+  "name": "Popsicle Finance",
+  "cause": "double-claiming attack",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2021/8/3 22:53",
+    "transaction_hash": [
+      [
+        "0xcd7dae143a4c0223349c16237ce4cd7696b1638d116a72755231ede872ab70fc"
+      ]
+    ],
+    "location": [
+      "0xc4ff55a4329f84f9bf0f5619998ab570481ebb48##114444:79",
+      "0xd63b340f6e9cccf0c997c83c8d036fa53b113546##114444:79",
+      "0x0a8143ef65b0ce4c2fad195165ef13772ff6cca0##114444:79",
+      "0x98d149e227c75d38f623a9aa9f030fb222b3faa3##114444:79",
+      "0xb53dc33bb39efe6e9db36d7ef290d6679facbec7##114444:79",
+      "0x6f3f35a268b3af45331471eabf3f9881b601f5aa##114444:79",
+      "0xdd90112eaf865e4e0030000803ebbb4d84f14617##114444:79",
+      "0xe22eacac57a1adfa38dca1100ef17654e91efd35##114444:79"
+    ],
+    "detection": {
+      "time": "2021/8/4 2:37",
+      "link": "https://twitter.com/PopsicleFinance/status/1422748604524019713"
+    },
+    "disclosure": {
+      "time": "2021/8/4 5:53",
+      "link": "https://twitter.com/Mudit__Gupta/status/1422797923037814786"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x4e7e477af5c00a731429c8ee485c7da6ae40e2e0a3ce4a3f260c9b4e4f509adb",
+      "0x3f8237ef4cc6971f7714beb46b288a6953f527f7b4206c80e334570f5ec167af",
+      "0xffa13e17d55b23daa0e47005d38109be3a966af4243dc9db88c5429547cfdf81",
+      "0x993bb2af16fb6b4104850a40fb870a61b7b84c4a4deaa8f7aea758dabb58b363",
+      "0xe182381051bd888098e536eb4f7135706f97035ad29e010e87baa90fbb7af0b1",
+      "0x54eac1e91fae5a3856ac108212a861cf6d95e6891c44ede41dbe3acc72f233fe",
+      "0x09b7423e64cc68eb66e693c75e50ea153f0cc3ac0d309dc32e5c991daa08f745",
+      "0xabab7b02a87649d21217d94db88ce78a25a50e8388ae87a6d57e939daf16838a",
+      "0xca973d06288708972bd0987e06c04e43385e5acacd6750ad097594ce749fb709",
+      "0xde65596c04788a64efd4c91ce63031f2f31a81dba35f7641583761c72ccc26e0",
+      "0x69513b6a7bc36a5ea5d5b7ddd13e0c2fe03af17b5301e7e391a0de03750a614e",
+      "0x6e940bf5158e7565ef3f3cceee27a78d8220197658ad5f4d40c7ab392ee2fc67",
+      "0x3a7380dc5d17aca389496788521fe9ead1f6651a7ca6e642da781b9c047700ab",
+      "0x54c1933f660d4e36260a3accb0a4818e72061275c2f1c68303f2c0a1dc40ef08",
+      "0x941e808a488857cf2eb85c3a38db02fe3ed571399d5f9c4ce5c8c2147f859a9d",
+      "0xed730cc683ff4df2622a4b92cba4d98c19bd48bb7aab5256007577dcf378d510",
+      "0x8e38ccf186d6c7f61e7515af770a50f6208617359b04e6be2afba96a5f7d4bf2",
+      "0xc0d0e7753d5ce2d04cd3c6eb86c82ed6a5aa34a8b699c608b6637c19d1e109bb",
+      "0x76556ccc7ff104ecbc38a27193541e16a076ba1c0e1b0b2c63ed59485d3f9f15",
+      "0xe18b138871b190ab696807aafdbe4063e2ab23aeefc8275c5fabaaa32498c5bb",
+      "0x6392f43d6702126f9e2134aea8262a8eef53cb7f097e4d19e39cefecd8e64f18",
+      "0xebbe7a1d49412e3e7275d0f49d04f9c020f8ff3e2bb6ba5ce85363eaf88091e7",
+      "0x9edb32f7bba0b431d88aef1fbd8b7cbc322d0c03156f3961793fce134a003479",
+      "0xebbe7a1d49412e3e7275d0f49d04f9c020f8ff3e2bb6ba5ce85363eaf88091e7"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+pyevmasm
+networkx~=2.8.8
+aiohttp~=3.8.4
+web3~=6.2.0
+async_lru
+torch~=2.0.0
+torch_geometric==2.3.0
+gensim~=4.3.1
+matplotlib
+multidict~=6.0.4
+scikit-learn~=1.2.2

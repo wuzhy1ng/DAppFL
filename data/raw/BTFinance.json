@@ -1,0 +1,53 @@
+{
+  "name": "BT.Finance",
+  "cause": "Manipulate",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2021/2/8 20:11",
+    "transaction_hash": [
+      [
+        "0xc71cea6fa00d11e98f6733ee8740f239cb37b11dec29e7cf85d7a4077977fa65"
+      ]
+    ],
+    "location": [
+      "0xded1219b5ba4da3a9d57c9f12c0d5da50f2fc4a2##13461:43"
+    ],
+    "detection": {
+      "time": "2021/2/8 20:53",
+      "link": "https://twitter.com/defiprime/status/1358881740178132993"
+    },
+    "disclosure": {
+      "time": "2021/2/12 00:00",
+      "link": "https://btfinance.medium.com/bt-finance-exploit-analysis-report-a0843cb03b28"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x70a1408c7192eb08acf7df694e832994396de59d0fd9dc7e9bf3de92878030aa",
+      "0x7247cf3114bc50e569c8697bbd4d0263960ecdae6e1379db6d376b0825f55974",
+      "0xcc405be814cd435cf6386aad5a2d0ab1044f3c1bf7ed748bdc25d76a6c944cd0",
+      "0x998b22fbdc8fe6127ac6f9023c496b87faac26bbd9424619ca6953e3e1309189",
+      "0x35df4041fa60d64ef39f662c3c8cee01d17181dbcc125844b98db55614d8facd",
+      "0xdb8d0a28eb7e7e1797cb7a6dc24ed5ce0165d79efcc2f03383ae790de5f8f8e1",
+      "0x5ffa98fea13c14dd0702e5b15382dadc7d81b3c6a605a0182e5ed6473e6795e5",
+      "0x5ddca696f06d157b2580b055d619bad2a916c014366186a32c10844a2d45e932",
+      "0x0d704570e7aba01daa342a4e16eed58efb6499a47b63b4474349ddc03bcbe121",
+      "0x50deaab3952656acac195478da7e7fb0ed92d4ee04ef0e2b38bd31b5efe419c1",
+      "0x66612f0415f6860bb2f97ec38521a872b2f632b9e65b8b23972351a5c14e1cf6",
+      "0xc1d5f799196e935003c2cf4d66349859b88de4a6f2ebfecb2b2febe9b32d39f5",
+      "0xf62d0763207468fe6fdfed12cd2fc3887bec853bc75a90e79291bbedf4c3526a",
+      "0x84ae279ddb9f9d6c3235a12bdadb5f6dbd81d4a9445872ea9860fd99858115a4",
+      "0x9d17f7547f8cc002744fb47bbb2e95c46a5e89e2680400ceed7c2411be4509f2",
+      "0x703b39893edd0cdd6c1ff65e282b6e4bed387436fdec917e9c7b912e76c41dc8",
+      "0xc683219a5dfbf68145e91d0bc88415135bee0b02fb1d962859918856fb47a8a2",
+      "0xfc6504757075120d621ecaf716460035ce7ef6482c3e48ca21f65884f5f9cb70",
+      "0x11bf1ea722d464254052980c3573ab644b6d6185d9ac794d81a827db091bdc5e",
+      "0x2093326300a40ef53b74a4b29c832839daf4ad370100129c5a46900f81e7d0c8",
+      "0x58181e7d547f73b4cf97e73d9aa8f059588b6b0cfae9e1823bda45e93d06f4e3",
+      "0x900901f6cbc52af540f35a7319e4fe2fcbb2482de6218f0abf3b75b1cdd1ed40",
+      "0xa850f62d27445cbdee387666e62167733ca7f9cc4f85211f22d534f54b85745a",
+      "0xb33a164c1c716cc7f7ae224ec7579327cceaf12a39f3658082afe3b9537783ce",
+      "0x7c812b27d86b418c9a950d43b151890b0990a0a1dd7dd51b4a4bfcebb1e1bfbe"
+    ]
+  }
+}

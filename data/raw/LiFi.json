@@ -1,0 +1,42 @@
+{
+  "name": "Li.Fi",
+  "cause": "swap() function can be called arbitrarily",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2022/3/20 02:51",
+    "transaction_hash": [
+      ["0x4b4143cbe7f5475029cf23d6dcbb56856366d91794426f2e33819b9b1aac4e96"]
+    ],
+    "location": [
+      "0x73a499e043b03fc047189ab1ba72eb595ff1fc8e#src/Libraries/LibSwap.sol#1392:96"
+    ],
+    "detection": {
+      "time": "2022/3/20 14:05",
+      "link": "https://twitter.com/lifiprotocol/status/1505545992183111681"
+    },
+    "disclosure": {
+      "time": "2022/3/21 02:49",
+      "link": "https://twitter.com/lifiprotocol/status/1505738407938387971"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0xc9ab03e607e0e1f31f8d5c40f7029f28ad76db511877775941d4262e8800e3d7",
+      "0x0c7689a9a9e264373b9e58dc48b994e83402d626adf36501ff2b6a41eefbafc1",
+      "0x7f597b7e8f2a66acfd46282351583bd1c207ab51ef3cf4a4544801f17c5a89fa",
+      "0xe6985651d462b4543e9fe1b1538c97910dd2b0fa48bfd4da406db49e08156ad7",
+      "0xa5d13d16fac004e597ceac33d5234f583c2067ccd947c716b8593fb25ecb534c",
+      "0xe73d5866f9228e96d27cd90acc32e9f1c7f84edf16a41021d3982a57ee2ccb17",
+      "0x32bef90e38a2175787a26074cc4ab86fa49f64cc53c781d2143ec5b08c73f1c3",
+      "0xa41577e04a70ce8c18a0a3bedcd4af90643999a91e96a9e98bd8378dbe060ae9",
+      "0xe49e7e2c000c6a93991562d4bc65e44a644b98514c58971c924db6286732a742",
+      "0xfe8e4726dd9c2abbfa49bdf543462ca896418ba9e321c5ac6f647d9700d4c02e",
+      "0xb35aa8db606f5ab4781bfb7c751929eeef45a2d02a61a37c6be38bf2aae541a7",
+      "0x20f4a3174c0e587714caba28853aca63df4feeb7e92a8f30e06942807fc04b63",
+      "0x3153a3200bef46b04d3ce7cc2d1aaa2b064b5d599d44fb8251eaaf45976392f4",
+      "0xc9e535eee639e43931dae5402390b0e737c71ead69222dc7679cf88a26d44e81",
+      "0xd8e09bb4a9e79726315f8d0cbbf59e1644ea5bc6329c83e22b98d8f05b60c475",
+      "0xba1940d7d65b46a04b54b914af845f913a8209fe75d0ac94497af2cecce9554e"
+    ]
+  }
+}

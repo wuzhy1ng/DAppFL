@@ -1,0 +1,44 @@
+{
+  "name": "Saddle Finance",
+  "cause": "Arbitrage attack",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2022/4/30 7:40",
+    "transaction_hash": [
+      [
+        "0x2b023d65485c4bb68d781960c2196588d03b871dc9eb1c054f596b7ca6f7da56"
+      ],
+      [
+        "0xe7e0474793aad11875c131ebd7582c8b73499dd3c5a473b59e6762d4e373d7b8"
+      ]
+    ],
+    "location": [
+      "0x88cc4aa0dd6cf126b00c012dda9f6f4fd9388b17#contracts/meta/MetaSwapUtils.sol#14305:173"
+    ],
+    "detection": {
+      "time": "2022/4/30 8:38",
+      "link": "https://twitter.com/BlockSecTeam/status/1520321721500200960"
+    },
+    "disclosure": {
+      "time": "2022/5/1 12:49",
+      "link": "https://twitter.com/SlowMist_Team/status/1520445167035199488"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x6e40509e76c0bf8ff0159025111a45c8486e2517ba0d2bea62ad1d5158c0186e",
+      "0x49aecb6591e76abafe87138e5f88e8898405bb4b3033cc92836330ef0e6704cf",
+      "0x2673b0df9463f171740f26c27d3f62a9ee5cdd60e8bbfb47c4ab793f60178f06",
+      "0xd7dacc63368e2404c279a7eff3f2fdc4cb176a78a23e8d1b730c573be495cb8d",
+      "0x881df609e15708db3e1478bd8e730ffa42da1193d2038f4891de313cdcb6038b",
+      "0x576c7e589c47ad4e3ae41c7210efbad49f1384140829387bdbe0b3aae40e867e",
+      "0x40e48cf72d252d1015930bb2f0897608ed5d1687ec6db5067bdd1efa945cc948",
+      "0x5b514f3dcd22be64c7b82a588b3e7050543ffd479f2da2b3a611d9728a941af0",
+      "0x9f863d885901f66f30fb63f27e708e898a94d07810ba82af225c92163cd207e7",
+      "0x60fb001bb997644c100efc2c19c421911ef71ec4a5d4059708f0864d5f414c57",
+      "0xcd3da98c394bd1fa863238509ee0789ac4e10eadc807a6213bcc307e70e31b55",
+      "0xa5dc7e6be9fffbd2e0da4b2ce2219145b6c6beb18fd6c6dd4b32f2c908e09b85",
+      "0x6b69233713fde5d92eac1f0979d24c6269efe68d92d49aba71aa43785b4f09c6"
+    ]
+  }
+}

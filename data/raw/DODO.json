@@ -1,0 +1,51 @@
+{
+  "name": "DODO",
+  "cause": "Init function unlimited",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2021/3/8 20:57",
+    "transaction_hash": [
+      ["0x0b062361e16a2ea0942cc1b4462b6584208c8c864609ff73aaa640aaa2d92428"],
+      ["0xff9b3b2cb09d149762fcffc56ef71362bec1ef6a7d68727155c2d68f395ac1e8"],
+      ["0x561f7ccb27b9928df33fa97c2fb99ea3750593e908f9f0f8baf22ec7ca0c5c4a"]
+    ],
+    "location": [
+      "0x2bbd66fc4898242bdbd2583bbe1d76e8b8f71445##44054:8"
+    ],
+    "detection": {
+      "time": "2021/3/9 1:33",
+      "link": "https://twitter.com/BreederDodo/status/1369098897008648192"
+    },
+    "disclosure": {
+      "time": "2021/3/9 15:17",
+      "link": "https://dodoexhelp.zendesk.com/hc/en-us/articles/900004851126-Important-update-regarding-recent-events-on-DODO"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x8a3685546fba7dd1bc16f339649492f51ac6c74de1212137860711ac6734b1c5",
+      "0xd17f7b4d5438f921f631f5aa725b7997b5d927b49ba3dfe47581ff98b7ef9640",
+      "0x0bd4383835e30771d7b5d604b19ff6aa447eabe404a35449962bcb48d40401af",
+      "0x9eb53bf2d908f651210e39557a85c8f564cf1a50ec37d3b54b43382e7723f3e9",
+      "0x0bb22ab91ee9bdaa91df4347661af78897a00cf450d53141a385c9d1687af65f",
+      "0x82f903da7d17582bd6d191697c08ccb7ed9545bcc23b4ae275393dce9cc6f811",
+      "0xcf804e15f529673eeff1ace704deac6e2b522ffb25fc150579a2b7d2a8776821",
+      "0x01f8b613d9f87f0f7fcde83c35a550b4fc758e8d218086de8ab39f31db9e72b0",
+      "0x68541d8cf34015dd31c9f1d379705d145ea35c8526a3c3d1fd14e1a0d3affe08",
+      "0x140b8779c5e266bceba6469e25366566d6a1d6744ae606dcbba521b7f2754dc7",
+      "0xda80c3bf6497fd895da314508c27bff1f6b7dfad7594393412982da459095175",
+      "0xc592ac0227a997ff2aae5fcd2a1a92db700bebf059f66fe79e0567aea126ebdc",
+      "0x8d68de3ca8a03cf8b42908dadb3893f6f9f07c80ce92114bd72819864c7d09da",
+      "0xf3ee884fbe133b05248c007b612d45f0c652dc0acdb92ea23bee9d4db652fa1c",
+      "0x8a27af58b7f70d3bf4cccea43449e29fc6ccde2e72fcfbcdc886d6e48ea269bd",
+      "0xf2348609552fdd7e87f07add6fa4a3fb5071eafc064827cf48f31e9afe417851",
+      "0x79436a9b179d72b20a9beacc5f5a0d7759c1404c057d22b35488253215c4fc8c",
+      "0x81c8a4cae1d438cf646d93b7a6042bd6dd729488769b8c9117ed87f84f778bed",
+      "0x6f13755738d1d62d7e71abf8a50164a88be20afc0f9c3b6c8ef320726eb31f9c",
+      "0xe54678df1c723f8c7062b37a7fc19de1e443d120b4599e2f4ca986a94307d962",
+      "0xeb9224dfb390c7d563e079aa4280867636103f1900d4970d8000714c883cf5ec",
+      "0x2cddf2e962231861995c0699e54bcf14323bceaef125c9a7810d328ebb4392b8",
+      "0x445f687d8cd5afa6f28279fb499c9a43bea03babc038d39e600d8b16b17cb292"
+    ]
+  }
+}

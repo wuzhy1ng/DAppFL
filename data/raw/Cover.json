@@ -1,0 +1,35 @@
+{
+  "name": "Cover Protocol",
+  "cause": "Contract Vulnerability",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2020/12/28 8:08",
+    "transaction_hash": [
+      [
+        "0xd721b0ef2886f14b75548b70d2d1fd82bea085ca24f5de29b833a64cfd8f7a50",
+        "0xadf27f5dd052482d46fdf69a5208a27cc7352522c7c19bbde5aee18f6ea4373b"
+      ]
+    ],
+    "location": [
+      "0xe0b94a7bb45dd905c79bb1992c9879f40f1caed5#contracts/Blacksmith.sol#4809:1050"
+    ],
+    "detection": {
+      "time": "2020/12/28 10:54",
+      "link": "https://coverprotocol.medium.com/12-28-post-mortem-34c5f9f718d4"
+    },
+    "disclosure": {
+      "time": "2020/12/28 23:51",
+      "link": "https://twitter.com/emilianobonassi/status/1343839568919932933"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x3b3800548aa30b098c1f917ee70bd971b1d9eee2c786b8e8deddba220a65e441",
+      "0x326ed6982d3969f91f7817f75dd1754ff25c9556cc6d6bc80d6871b9185e676d",
+      "0xa718ffeb183724c30b258c31cb06418bbe6588c9810e536aa83cd700c5a35abf",
+      "0x36159936431cf0fed997af5d6d28695dfff79db0de913e2d89017646b91aa2da",
+      "0x47d96496e949ba461d3b950f76a5cd1ef233d02c64890f9695e3a6793cc9c158",
+      "0x9a5fc07c2683d49147a3a6ce305c7c182fcc45e4c10b77b9e96a5d190144af33"
+    ]
+  }
+}

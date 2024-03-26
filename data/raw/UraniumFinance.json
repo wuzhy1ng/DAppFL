@@ -1,0 +1,41 @@
+{
+  "name": "Uranium Finance",
+  "cause": "Precision processing error",
+  "platform": "BNBChain",
+  "fault": {
+    "time": "2021/4/28 3:02",
+    "transaction_hash": [
+      [
+        "0x5a504fe72ef7fc76dfeb4d979e533af4e23fe37e90b5516186d5787893c37991"
+      ]
+    ],
+    "location": [
+      "0xa08c4571b395f81fbd3755d44eaf9a25c9399a4a#/home/camille/Project/swap/uranium/swap-core/contracts/UraniumPair.sol#7380:1871",
+      "0xdd0c4a96a43b36d91f4fedf83489b954c287886a#/home/camille/Project/swap/uranium/swap-core/contracts/UraniumPair.sol#7380:1871",
+      "0x9b9bad4c6513e0ff3fb77c739359d59601c7caff#/home/camille/Project/swap/uranium/swap-core/contracts/UraniumPair.sol#7380:1871",
+      "0x0fbb9456e929f66853973ba12109d9569d2d4966#/home/camille/Project/swap/uranium/swap-core/contracts/UraniumPair.sol#7380:1871",
+      "0x04536fb62db86ccf3c7b9b9ddd6dc10fedc92148#/home/camille/Project/swap/uranium/swap-core/contracts/UraniumPair.sol#7380:1871"
+    ],
+    "detection": {
+      "time": "2021/4/28 3:22",
+      "link": "https://twitter.com/UraniumFinance/status/1387245696454041600"
+    },
+    "disclosure": {
+      "time": "2021/4/28 10:04",
+      "link": "https://twitter.com/FrankResearcher/status/1387347025742557186"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0xdffb34f2fc9e1dee8c3fd54d140dc11bcead7152efeba489e97d13cd52e82087",
+      "0x633dcc7223a2c813451731430e2f93deea8bb4e241bb08f13da764a7802487d2",
+      "0xcffa24cb5339681c7a6ab6a794fd834bef234d100407cf8c0e86e2dca8d3ba9f",
+      "0x55fcd9d562418fd9c854ee79880ed149c7ff802bc2a9eb67dae79d9602254ee6",
+      "0x47d96496e949ba461d3b950f76a5cd1ef233d02c64890f9695e3a6793cc9c158",
+      "0x3b54b2270abc631ec839a2fb927036213a62579f56326fb02632b56911d4ab91",
+      "0xa0193f992aeda3782e21c704d3d6b1e56d6370ec5f055e65e1c570cc9b42619f",
+      "0xd4564ce91720d1b72659d98fb14c8ef239f21d5d9ed9dbe6fed7a563227a5132",
+      "0xe278f8cb338d96b3fa5be12ea805c9437e48703237916ebe8b5204f9723ad917"
+    ]
+  }
+}

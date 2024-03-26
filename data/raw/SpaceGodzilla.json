@@ -1,0 +1,41 @@
+{
+  "name": "SpaceGodzilla",
+  "cause": "Access Control",
+  "platform": "BNBChain",
+  "fault": {
+    "time": "2022/7/13 12:16",
+    "transaction_hash": [
+      ["0x7f183df11f1a0225b5eb5bb2296b5dc51c0f3570e8cc15f0754de8e6f8b4cca4"]
+    ],
+    "location": [
+      "0x2287c04a15bb11ad1358ba5702c1c95e2d13a5e0##35663:49"
+    ],
+    "detection": {
+      "time": "2022/7/14 05:42",
+      "link": "https://twitter.com/BlockSecTeam/status/1547456591900749824"
+    },
+    "disclosure": {
+      "time": "2022/7/15 00:00",
+      "link": "https://medium.com/numen-cyber-labs/spacegodzilla-attack-event-analysis-d29a061b17e1"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x66a7525d9c4f710e51b4e1deea6dc521ccc33cb206c3f2e5fd7592716b465288",
+      "0x21d6b9fd01bc7bafdf17b97e06e2acf706d1ba2b4db560885ec07f4f9f5dfd18",
+      "0x8f3a4f3288c59f57f6028e2512843a40fb2045be26a01af9bd28e975ab4e5b92",
+      "0xdc828872c0af411e997638efa4ad20b5989931c94ce7da80817e90e14c25e29e",
+      "0x1d180925c7d9fc1ba05d4325a26bf77382dd8a5aedd476d9534d50e80e8b74ee",
+      "0x923458075ffb17a884dad2ad1af67d9d5c6f7e7df28105090ed7a48d757bfdf6",
+      "0x3f01f0fa9be92641a5468ee505fab496a853e4a4b9708d0cd3029493032bd5ee",
+      "0x19974efc9fa804e528035921b27515af0f278a3798569007a0826942c160047d",
+      "0xcd21f15caf915cfb656d657fde666eeceb090e46224c54e93ee896b17699e23e",
+      "0x3efbec20532ff8b3e9836a44566c3bf04f2d01b9bc4deb7eeef5e2fbae167570",
+      "0x2e09ce856ffa18792461d4fc002459a50ff9cd28baba57dcf2afe18d1a4f15da",
+      "0xc2a95e2f0701e948b73af0056f0005e6da0b419270b01abe9ae3e64af8408d42",
+      "0xeb9c8038d614621b1771435726a990739504da87b5a153b665acff5377e51fb8",
+      "0x9cf232b8ff2c6de91d8d07a62932d3e826a284a0a0c0fa20888fce528a4b1329",
+      "0xf13911c59c93d6f478bf27afb0f6f793c97bacd57da8ab75a26c661bb893634e"
+    ]
+  }
+}

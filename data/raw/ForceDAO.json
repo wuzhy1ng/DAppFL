@@ -1,0 +1,54 @@
+{
+  "name": "Force DAO",
+  "cause": "Missing return value",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2021/4/4 06:55",
+    "transaction_hash": [
+      [
+        "0x8da606ecfe18034c6de8317d524643dcde15121bc6309c6faccbd44f2d35f8f3",
+        "0x9f34b18984f2e0ee5bcd9f279ddee2a1952fc9f30117e5f8fd05855b3e99d2d1",
+        "0x047d2f5ca117de92a65de25d04e00db9bc0f1a899ba61140550afc6618d282ac",
+        "0x1eeaac386e872b0965c355c16637ed252ad08ebb940f2e617df141f6b1ec6721"
+      ],[
+        "0xb205c9c811f1c114cf6ca1fa3854ca0a6df90cc16b9f5aac78d46e1a645c0dc9",
+        "0xc0656559ee4618982ec7a752c448239f8ec94a0d37dd42297cedc9ad8efe6afd",
+        "0xef3e8afd09e00d6a8457894653e261d3d00613b7fc9790405e9de38d6b39a8f5"
+      ],[
+        "0xbdf1e75b9e21932d298f9a8d784c332ad630687fa1434dbcada1ca9d20978245",
+        "0x7df2fe63dfb43676a13146060d36ded98779092e0f7c9fd46caf18b791d4b9fd",
+        "0xe7be5bf25b0ea9fad2fd51021f4a51e5099cf4c91c2ffef94547072fe25ca8d1"
+      ]
+    ],
+    "location": [
+      "0xe7f445b93eb9cdabfe76541cc43ff8de930a58e6#/E/Defi/force/contracts/contracts/ForceProfitSharing.sol#1906:53"
+    ],
+    "detection": {
+      "time": "2021/4/4 09:39",
+      "link": "https://twitter.com/force_dao/status/1378643450803929089"
+    },
+    "disclosure": {
+      "time": "2021/4/4 17:40",
+      "link": "https://twitter.com/force_dao/status/1378764434026287104"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0xc2940a2e3cef4f94906991f7e7ae76c2a687ec81b18103f2bef522ed8dfe7971",
+      "0xdea411424088f06687bfb2b6ad7daf0051d84cebef90dbabd9d1805cf9c6543f",
+      "0x1ac0f41dc41f21b49e6c9bb71d96fc6349e5a234101f952bb4761345ba48ce32",
+      "0x033fb07dd387f34ace47990162923e5870d8e90c92213cd325ec8e7aa1848eee",
+      "0xcdec07f0d1e2f07ad4628c1045efff41a78a1e6d94c611229a25922706cd5fcd",
+      "0xec6a8a2ed3de904d86ca0168bf1448fafe7efc2fc4d4c921e5e02e0faaae2f82",
+      "0xe9a6794e1dbd97e77c84ab306ddb3d7522603e1ed8a3f074f51c1881f85b2090",
+      "0x13605ffe1210d6a7b0375a34db02d41cd0aa73fc7c0a2014209195ece1ddcad2",
+      "0x2a80433b24d74606c622410ed6aa3eadc3134627642809dcc68c2625113a8d19",
+      "0xe13d9e0f48381daae77db7c6da205d356c8944dc36c67e64c1976589c5541772",
+      "0x3c0309dc0eebe73ebd535dd6f5fccf56862ee2ffb65815a21b675f7ec7784f1d",
+      "0xdadc52b74f60abe47fe3bf3177982edd7d668337af6e28464e3251f3d5609637",
+      "0x95ea32f894c93e8d50006c4451302ea9699ccca5640f30ec20acdf89909e3264",
+      "0x8b2fe535300bb36c2ccaca4dd40b9a33e8623e89942a8a73dc627db40e80f123",
+      "0x04e7d2a94d4fbb92c3434f2439b4e1852aee40ad44f45ff38b07a7ed9a3a9917"
+    ]
+  }
+}

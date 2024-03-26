@@ -1,0 +1,49 @@
+{
+  "name": "CreamFinance",
+  "cause": "Reentrancy attack",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2021/8/30 04:03",
+    "transaction_hash": [
+      [
+        "0xa9a1b8ea288eb9ad315088f17f7c7386b9989c95b4d13c81b69d5ddad7ffe61e"
+      ]
+    ],
+    "location": [
+      "0xd06527d5e56a3495252a528c4987003b712860ee#contracts/CEther.sol#2800:111",
+      "0xff20817765cb7f73d4bde2e66e067e58d11095c2##60638:2472"
+    ],
+    "detection": {
+      "time": "2021/8/30 06:10",
+      "link": "https://twitter.com/peckshield/status/1432224092275548160?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1432228488405307395%7Ctwgr%5Eb900715aa78a7868f88d2dc4cb2c17a5fa413c0c%7Ctwcon%5Es2_&ref_url=https%3A%2F%2Fcoingape.com%2Fcream-finance-faces-second-flash-loan-attack-in-2021-loses-18-million%2F"
+    },
+    "disclosure": {
+      "time": "2021/8/30 06:27",
+      "link": "https://twitter.com/peckshield/status/1432228488405307395?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1432228488405307395%7Ctwgr%5Eb900715aa78a7868f88d2dc4cb2c17a5fa413c0c%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fcoingape.com%2Fcream-finance-faces-second-flash-loan-attack-in-2021-loses-18-million%2F"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x2b56c2904b0f3de0e84cf4457197247e73fd26f622eb6b2699bed7fe64de4703",
+      "0x43f8d9dd6fbe07555accec113147f1079866442e344fa9026d7d1cd546a99e87",
+      "0xb55e5ed3b77be4987d1764675c6f88c461ae032706c3f9396bef265a45b10dda",
+      "0x216ce275c496403374e10137d15f0a011f9fce340613b318abfd3f4faa962086",
+      "0x747fc059cde07a1267c5e9ddafd4a40e91d95388256f098c887fe1561f61fb59",
+      "0x814f8a2e08f6f60470dfae590967487f84be15199346cffef77d0eacdce8e6d6",
+      "0xe85b3cc764d69b3624148dff56081c2e0101db0ec958661c8d835d81c3996773",
+      "0x0db8912ada243246d4bfa269f7f2a96dc8eae549c0cb878b7e915857e7dc3806",
+      "0xc3c7793ee56db1a1715addb463698d54a20803e4391cf36b2a096dd621c08dc5",
+      "0x386dd650d7e381be810c77478964ab28a1d44ed1deaeb76a5217a60df90ece26",
+      "0x1a4f4017c04f0a5ac38b1e594d7d03fbfaaddc17773691690ec03cf5e2875eb7",
+      "0x1059643922137f17da46a93b0d39d37f328223c1f20a9deba8d7d7df0716216b",
+      "0x9dbc6632f6807a6e2dad23689a54f5fa8856450f12b5b0b0d800c420597ad918",
+      "0x3c39e0da287441e2f2a9cc24b9b110a8b843aedd836cdb74adea7d85fc085915",
+      "0xfae7447b04ce9e11ca34912fc47ab8d5455ba40735a5734228568f1108178cb3",
+      "0x2e1ae8eb8cbf30d2d40dc5f8e1e7afc0394ef8d81119949628a43c3d5bbe7f19",
+      "0x71bc03e5eb40738d6f7aeb8f86ec3effdc65fb442f2f5a98e2f7040fbbee439f",
+      "0xe8f2194847036a496fe6d309d7a1fb1edcef9ab1bd1534c712b8f13d4242882b",
+      "0xf0fb54e13048b6e2a7cf4987546dd11e1f87416348f6f473d85eddd7c36dbf16",
+      "0x397a2641f5be4f4865d4628d95bf7e6e4901ef6ce8efbcbe4f63810a3ab382ba"
+    ]
+  }
+}

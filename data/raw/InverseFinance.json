@@ -1,0 +1,28 @@
+{
+  "name": "InverseFinance",
+  "cause": "function usage error",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2022/6/16 08:47",
+    "transaction_hash": [
+      ["0x958236266991bc3fe3b77feaacea120f172c0708ad01c7a715b255f218f9313c"]
+    ],
+    "location": [
+      "0xe8b3bc58774857732c6c1147bfc9b9e5fb6f427c##4115:21"
+    ],
+    "detection": {
+      "time": "2022/6/16 09:51",
+      "link": "https://twitter.com/InverseFinance/status/1537372199769845760"
+    },
+    "disclosure": {
+      "time": "2022/6/16 10:36",
+      "link": "https://twitter.com/peckshield/status/1537383690262589440"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0xb651365042c5dd092402de20eb510f068c25504c41388374645ed14dbaaa499b",
+      "0x8d6f51c088049e089ec4c5a270f7260c1f10aade637726ea839626cda8397b73"
+    ]
+  }
+}

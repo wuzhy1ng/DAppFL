@@ -1,0 +1,85 @@
+{
+  "name": "MERLIN LABS",
+  "cause": "Contract Vulnerability",
+  "platform": "BNBChain",
+  "fault": {
+    "time": "2021/6/29 07:08",
+    "transaction_hash": [
+      [
+        "0x1ba1fd3ba2605314eee424abef0e42667a3bac739359b0a27d7c7f87b09f6798"
+      ],[
+        "0x4dcf37a6d5ed7786fc7f103258a245ba8dcd813b57a5bc516eda68f56c26fec8"
+      ],[
+        "0x0fed4bde0e389434925f6aa2072c5b862bc0878908c39e4c165c86872584a609"
+      ],[
+        "0x3be6c0ab07d7fa03bca44b0d0aa4093e67dca2747278cf2951740f2cd8db5a0f"
+      ],[
+        "0x163314b66bacee77c6e13a5063c37ad1201fa14f93a57fdb1099085b462b151a"
+      ],[
+        "0xba2e4151b0a032075455b7c35f6f16afe8dc054fcc513abf5fadaf2c82eb8485"
+      ],[
+        "0x09fdb6b036175c762809fc9e157f9ff27b203f24885b0516cb958ebfb6bf7295"
+      ],[
+        "0xf527bb753045700435a2d233e5fa007e5c41c09b534f22e70f90d0fb1e0d89ba"
+      ],[
+        "0xcf2fa2aad34b0368c903446821aae24626b0a5f15c74b23242083711f6034da2"
+      ],[
+        "0xc9bc30c2e8f6dcd769e05ae0f0413436b652e3976f144eb662adfb5ebc68fced"
+      ],[
+        "0xc653926bc4ee7a1e661aafe5aa677e444b82a3938908ba236952ab3eb78d9a06"
+      ],[
+        "0x0451b4d0c777a82c5510505c7b849c301cc462dee8d39ae7576d6acc5bdcaf36"
+      ],[
+        "0x27577113330c7a24bfbe3b1d12a7e39ed13ae652a639cebaaf187c140d3fc1bb"
+      ],[
+        "0x4ccf7e11f1e542f4a9b58ef528d557aec9691f4c1ee86940a82c6be90fbd3d8f"
+      ],[
+        "0x37ea9fb064ebcdcb191c3002ea067a3b9ad6d51d3dc9f423ceb3aec069542ff1"
+      ],[
+        "0x31fdf621f60684579de00f30b33fa051c19f1fd45d891c817e2a3888a9b75726"
+      ],[
+        "0xb0be09a44e4afd2e84c391dd3759e76462524cc323181f8d0b9563f16e0e5961"
+      ],[
+        "0x3dd26b84dd8f302232aa85ecfbf6a95a30c707557ec2902fa8206e6f4fba64b3"
+      ],[
+        "0xa93ed3833ea5c16655ea07a42a40c2866e26add45e27563a64e12c4dcab0b32f"
+      ],[
+        "0x903ae34f48d4e00da8d7ca5dfad26f8f37e80cde2156907580cf551a63317f76"
+      ],[
+        "0x8e70209ceef833e964c36d5c947b0adfbc60d8845f3ffc03588544408132ee15"
+      ],[
+        "0x3f30562e347f31be2eb3ce27455606025ecc748b91b95bc5abe8291c6061efdc"
+      ],[
+        "0x09cea6d81cadc548aa4727e295511b3b429bf1b439a6a1c603d9454461920242"
+      ],[
+        "0xf48f28a24571ffded2a0e06cbf30acfb4db085a4a2c8dc659d2dbf16344ae1de"
+      ],[
+        "0x9d0f75824f85f108063f6d138aabadc5146d2e5cada3e7928568d6b2519f5068"
+      ]
+    ],
+    "location": [
+      "0xa2b418e3c71f118a34caf7a0667dbd903b39f212#/Users/jimmyfan/Develop/merlin-contracts-dev/Merlin/contracts/MerlinMinter.sol#5222:147"
+    ],
+    "detection": {
+      "time": "2021/6/29 10:30",
+      "link": "https://www.adrianhetman.com/what-happened-to-merlin-lab/"
+    },
+    "disclosure": {
+      "time": "2021/7/6 00:00",
+      "link": "https://medium.com/valixconsulting/merlin-lab-incident-case-analysis-d023d4205bd7"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x0d9b7e647c9877ad9ec1d9db44b90b2fee2341e08205a4e4dd98a402bf8ebfed",
+      "0xea4499132d8ea4cc34d0288eb10d083ac3b01ed8508925eac6b9cb9f021c7b95",
+      "0x80e7639f50231805c26e7c2174d572dc333dee1327e7d15ae43aea7950f7a939",
+      "0x09fbe229dd043961fc6b58cd66a5540f9d0d5a28ecd9a14f7b45a92b8e07a311",
+      "0xd6fcf6369d816b1d2a8cdda464e0a53d2db92d238065dcf05e33d4cc92a94db5",
+      "0xddf7757f57f69515feed9a5bcba5d8f34a900ad14164f385a27d573aca74a9e1",
+      "0x59ed7a445f6974072d1ce5a91068ffe90a37b7b7adfcaeef9a4989b9b5c8206f",
+      "0xab21274f02da88b14fa9ece7a187fcaf060b74c704c94856931d6e017bd7f4a0",
+      "0x8cf5e76d990484b37d2d6d38db92142fb2b3aaf326e6115f7d7561e7ffa3c9ab"
+    ]
+  }
+}

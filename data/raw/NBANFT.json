@@ -1,0 +1,36 @@
+{
+  "name": "NBA NFT",
+  "cause": "Lack of require",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2022/4/20 17:12",
+    "transaction_hash": [
+      [
+        "0x2e2d9f262dcaa4a6ccdb047092f837b0f65ae533b34332428674d3f36308ff83"
+      ]
+    ],
+    "location": [
+      "0xdd5a649fc076886dfd4b9ad6acfc9b5eb882e83c#contracts/ssp/dusty.sol#2897:1314"
+    ],
+    "detection": {
+      "time": "2022/4/20 23:57",
+      "link": "https://twitter.com/NBAxNFT/status/1516929175986212865"
+    },
+    "disclosure": {
+      "time": "2022/4/21 2:48",
+      "link": "https://twitter.com/BlockSecTeam/status/1516972147805409281?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1516972147805409281%7Ctwgr%5E77568b22b1a17b736c711c28e68ff160bc8f6497%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwatcher.guru%2Fnews%2Fhacker-steals-100-nfts-from-nbas-collection-a-day-after-release"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x76ac8cf65f2fcde907d62a73f60ae947fe522f9a00f63e022c480c54bf607d1e",
+      "0x5b7fded3cacc6df5748e32827f108ee18184409bf10c34ccf86301e43aa5ba1d",
+      "0x9d5eaf88536ab5bc494cd40e7689682b1d666d8935b17306f0c89327e36083fd",
+      "0xd0df5c6079f6c5b26cba4d98c5131bf67c4375e0c0b074d0a9d41716ca90edeb",
+      "0x4c42ba50e02e6e16cc278b537928e277d769ce209ba99c79a70193625dc02dd5",
+      "0x254af3a53e180eda33db808865fa0ae108bea51c49b58af9837677d03be000fd",
+      "0xcdcdc4de85abd4ac86e7921acb2573f8e50cda861cda47b7404f9e301f0fd940",
+      "0x43ad2a9d608658399948eaf984ffd9045103325733fa9fb53316c15b10ec4ce5"
+    ]
+  }
+}

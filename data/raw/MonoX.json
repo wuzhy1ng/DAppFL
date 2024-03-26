@@ -1,0 +1,55 @@
+{
+  "name": "MonoX",
+  "cause": "Flashloan",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2021/11/30 13:27",
+    "transaction_hash": [
+      [
+        "0x9f14d093a2349de08f02fc0fb018dadb449351d0cdb7d0738ff69cc6fef5f299"
+      ]
+    ],
+    "location": [
+      "0x66e7d7839333f502df355f5bd87aea24bac2ee63#contracts/Monoswap.sol#29969:86",
+      "0x66e7d7839333f502df355f5bd87aea24bac2ee63#contracts/Monoswap.sol#30207:131"
+    ],
+    "detection": {
+      "time": "2021/11/30 14:33",
+      "link": "https://twitter.com/BlockSecTeam/status/1465690478414761992"
+    },
+    "disclosure": {
+      "time": "2021/11/30 14:33",
+      "link": "https://twitter.com/BlockSecTeam/status/1465690490213261323"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x2e164609f5ec4b5c896d6afbc4dc125c85bf0191a9acab4a6946d16565507aef",
+      "0x83425a2c989e72e9807114450d7d3ed36eaa2147383c72394398e5dea301488f",
+      "0x2372c310fe3d80e30f9fe65044f7c3eea636bf98b2ab4a724c67e6681da88d83",
+      "0x61c5ba3bd923e0e46165c61e3f6bb685d177f2ace86894ca534978342d681375",
+      "0xd8c80edf65757a3b9cd1246d38d4dbd9b65b2287118e25bc80e87a328ae8ffe7",
+      "0xcc9622da61c2f54f7e4e454041da6d9dfe8eef169b5453330402b16e03a61140",
+      "0xaf8ff64a9d3044b73ed0e1191e4d9fddbb78693a89303ebe4a7cb363a414a4a7",
+      "0x1f515265ff31dbbfad695c0cfe8c83786b6d1738dbd092613328b44145cfc0a9",
+      "0xf3636ddce3468a98e3da33cc27bae068ea5509de8113fee96eafc35640f9302d",
+      "0x36de36e0c4ef51d16a941a4ce1b7d2e2f2484c338353a0831e08282eda4dd6a5",
+      "0x1133ce0f26ffd8a7e349bc2e781f4f328b2a565c0cb20b07d425bba524ef2615",
+      "0x1946d334841a7c31a4d7d96e67a4d7e4c47eb4375f7816268999dfd71b13d109",
+      "0x99b6c3e89b2aa4e8590df0f0011060b7954fbbe36db66c780a31e1c2c5886a6a",
+      "0x43e629d8bfe2169ad01396c2e846541d66a7937bdd9eed8a0bd6149b68d6195f",
+      "0xf4946df2c7966c8a0b6c156afec5ee64f0fac8d60fb9a5dfa712f81a24a465b6",
+      "0x9b316247ca3368a716a6b1ebf3d004e93c463f35a8001b8ee6a5bd31647d9f56",
+      "0x24139ba11be707a93f037780fca9000107f8b1ae18732444bd2ec8cd096ecf32",
+      "0xf5d3dd6aeee7032ec4ad47b16b1a96f079017d84d6809927b4b5ab39a36e3972",
+      "0x6f1a52b1ec4b4e8db38ed38838efa06dd0ebb19b357c917b720b5912b7b91fa9",
+      "0x2b740576c2046ed2d6f8179e94aeabd52f28578250974224c691876def27757c",
+      "0x51611872ae198770c2eb5568872d8176281256c61f4d6db5725ee98b68b5823a",
+      "0xb988c6b133560e700eecbfacd3daf0c2c3cb44c4e2e869fef19e0c26e63ac352",
+      "0x38c0478bdb44c05664daa2109bc202a53a0187494a84ff79be8258afa6771e0d",
+      "0xc2ced682938f09f6b8b37c877b3202ddc7b65a7cb058b914a5ed3fbc91f37b30",      
+      "0xb997566e9a77cb871919aecb1df8e6a0c60497624b27646b5cc04658178f6336",
+      "0x93ec0d5e631406f7c31ed74c1472eed1f6bbb66f411facff456f0efcc0bde63b"
+    ]
+  }
+}

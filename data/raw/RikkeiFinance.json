@@ -1,0 +1,34 @@
+{
+  "name": "Rikkei Finance",
+  "cause": "Access Control",
+  "platform": "BNBChain",
+  "fault": {
+    "time": "2022/4/15 03:18",
+    "transaction_hash": [
+      [
+        "0x93a9b022df260f1953420cd3e18789e7d1e095459e36fe2eb534918ed1687492"
+      ]
+    ],
+    "location": [
+      "0xd55f01b4b51b7f48912cd8ca3cdd8070a1a9dba5#contracts/SimplePriceOracle.sol#732:8"
+    ],
+    "detection": {
+      "time": "2022/4/15 05:00",
+      "link": "https://twitter.com/CertiKAlert/status/1514831117169405953"
+    },
+    "disclosure": {
+      "time": "2022/4/15 05:08",
+      "link": "https://twitter.com/CertiKAlert/status/1514832924838961153"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0xa2fd48d9b9eec3e41112412c90738d4d1e8cf31e7685476871ea64517e5dadfd",
+      "0x2e4daa625064d186ca0a5033c3c25fd8a23ef462ffd97efd7dcacd66fe919a3e",
+      "0x67c25e89a16e6300a52325341355e0fa739e75b8249b8fd286b79a8eac32dd43",
+      "0xe364dc684206c63234b139a3acf5584a91b7ed7b60a271d26197f3cba2792900",
+      "0x805aa62355a381f33b01f3b5c387a396785c216ac4d759876f43441b68ab7a6d",
+      "0x8507b3c242df4d3f3ce82f9def4f52a15165b13854d5ec6738f8ee4836ae3adc"
+    ]
+  }
+}

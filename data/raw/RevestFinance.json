@@ -1,0 +1,38 @@
+{
+  "name": "Revest Finance",
+  "cause": "Reentrancy",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2022/3/27 1:41",
+    "transaction_hash": [
+      [
+        "0xe0b0c2672b760bef4e2851e91c69c8c0ad135c6987bbf1f43f5846d89e691428"
+      ]
+    ],
+    "location": [
+      "0xe952bda8c06481506e4731c4f54ced2d4ab81659#contracts/FNFTHandler.sol#1596:17"
+    ],
+    "detection": {
+      "time": "2022/3/27 2:24",
+      "link": "https://revestfinance.medium.com/revest-protocol-exploit-recovery-plan-b06ca33fbdf5"
+    },
+    "disclosure": {
+      "time": "2022/3/27 12:57",
+      "link": "https://twitter.com/BlockSecTeam/status/1508065573250678793"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x6cc0256908c34611698fa4be6972a0708df17cb459cf6f4f119749f8c092d4e1",
+      "0x569b8670b26548c143c4a323d8c20c539b2138ac35c19e65245bda18b507e481",
+      "0x58b1ba488078b0433d5369fc5abfc78b070411e354405dffb3059d1535069ba5",
+      "0xc45bfdae7b557d95a363d86dc7e3a7b8010836f6739c7384df9e87b4948ab9d2",
+      "0xe0ff1aac261b87d45f141144ac59037e6f538ed5e1c0ebb18f0c6b09f6d5793d",
+      "0x284bc9f60b8ad43f52a618dfde930d8a6b780f49085d47f48819e4fa2f28562b",
+      "0x1ae503cf93d2348d25134bb2b10d5598ae9097a77848ce524f855e73f4e1afda",
+      "0xebde527b80494dad0e5f6b5c88f54bd5d705e2e868614c967ec02e8db12398e8",
+      "0x07ef681695368d67ec93b6e13ab01cac93ec98c184f57fb13a93fcf859d3c752",
+      "0x782ccb25dcc5f37ebb7bb9615c9488aa3269e04afd42e342fe03c2a2779eb36b"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Punk Protocol",
+  "cause": "incorrect function modifier",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2021/8/10 06:54",
+    "transaction_hash": [
+      [
+        "0x7604c7dd6e9bcdba8bac277f1f8e7c1e4c6bb57afd4ddf6a16f629e8495a0281"
+      ],[
+        "0x597d11c05563611cb4ad4ed4c57ca53bbe3b7d3fefc37d1ef0724ad58904742b"
+      ]
+    ],
+    "location": [
+      "0x3bc6aa2d25313ad794b2d67f83f21d341cc3f5fb#/Users/jacob/Developer/DeFiWorkspace/punk.protocol/contracts/models/CompoundModel.sol#689:422",
+      "0x1f3b04c8c96a31c7920372ffa95371c80a4bfb0d#/Users/jacob/Developer/DeFiWorkspace/punk.protocol/contracts/models/CompoundModel.sol#689:422"
+    ],
+    "detection": {
+      "time": "2021/8/10 22:11",
+      "link": "https://twitter.com/PunkProtocol/status/1425218390965198849"
+    },
+    "disclosure": {
+      "time": "2021/8/10 22:21",
+      "link": "https://twitter.com/PunkProtocol/status/1425220676382724098"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x509b134247f308ef9e190cf2a9f9b902955c4cfb120c107933162e4dfa561c9e",
+      "0x673053a1e3dca1344040801e8c78b30b0b5f6a9897b246bc5eb348e62347be15",
+      "0x1a0bfc77de177cb40135c7aff873cd866b9799b4c22b6715cff4d69409b2930d",
+      "0x98038d87695405a0c9d10cbdbc47eb0721b64d52720383f8e4e859127e8b60e8",
+      "0x3a9d59d11d84e9d9b226c49364c6cfe8ebbdbe3436bc03c5dc8553ab9ef59873",
+      "0x27524945d17f1b172d3a738bb9314d559ff08c22d4e1b592bb55b1b628be8c32",
+      "0x812f2d4afdff2779ab8d62d47355e004853056927133b8858d2e6f3ddd758dcf",
+      "0x78bbb5974b677afc981500e3eaa77938fdd100defb7096810f02050b4dfe6e65",
+      "0x8fec427305c11d17fb40ee50b30f765abcde7dd91af46b6fe9cffc840a2085fb",
+      "0xdf3069f15f552020f43f05a371dcbd735e8058066504d863bde8beb1508cd7dd",
+      "0x36c92f57e5a67ccb0e7a383e50e28bf5a6822f227159786df731953f63299246",
+      "0x6e898bbd89ad434948a6d9fb70ff1ca97fcdabb6f2a3c73b62135032c6b43d62",
+      "0x072b18b17f1e2406784193e6caa4d2830ed25d5a26c15ea4d51acee9c5f11253",
+      "0x1ade7521b5893a2d1f25560b303ef4a403d901c83d91a73b0c5d73d1c430c0e6",
+      "0xa4804dbd396b0c86276d5f4bb4029c6ac8f0fb0c7e3f988204537522a8a765bb",
+      "0x3e92f3ac5699987de7ec465e1fac0364ced15d75c42a8ca01f01ba24977883a7",
+      "0xa63360b80e2237e34abe77b5361889557a00bd0945d10f7d0609cf9ae2b1c587",
+      "0xc297e58202f60f5e013741835a58334e0b267b070b00bf7d1155a8f547c2facf",
+      "0xcc32e5c1ac6930101e2cfa0687cea95f3166bbff95cc8697ff5480e64eb35401"
+    ]
+  }
+}

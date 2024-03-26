@@ -1,0 +1,42 @@
+{
+  "name": "Formation.Fi",
+  "cause": "Flashloan",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2021/11/20 17:10",
+    "transaction_hash": [
+      [
+        "0xa992b28ecf2eed778d20d5200946ea341b950be0c3d78b1f2237a4d8d795de95"
+      ]
+    ],
+    "location": [
+      "0xcb6afdc84e8949ddf49ab00b5b351a5b0f65a723#contracts/Vault.sol#9674:62"
+    ],
+    "detection": {
+      "time": "2021/11/21 18:25",
+      "link": "https://twitter.com/FormationFi/status/1462487445212180482"
+    },
+    "disclosure": {
+      "time": "2021/11/23 20:25",
+      "link": "https://medium.com/@Knownsec_Blockchain_Lab/knownsec-blockchain-lab-formation-fi-flash-loan-security-incident-analysis-8a24555f8356"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x94beaa5113b61e99677ec4039928c52b406a021e2b8845e32f4461ca29739665",
+      "0x9286c5ef4abf97bc0d9e2aa7fbd8187f7484985da5a285bac9516b4b89709b77",
+      "0x97681e7949557faa35caacbee7105ca4a749e8a838f9d30caa2a39a521125b4a",
+      "0x7c48c9b71c41dca22deab7e93486ba0c2c9ec1397eaf53d4581795b40b61c8b8",
+      "0x15a7d46a8ceeed79f86815623a7e8b7bf18b0b4c9b5aa93f998107685512e996",
+      "0xb57484afc5056f77a549f358d384611e227a2b8eb22993d2d3a91452f4a44580",
+      "0x335e8f33d1d382f2473011cd781fff9b79404158da3532f9df02b4a265911a1b",
+      "0xda76bc278ca52daec67e0f4f182540878092a4afd0ca544189664822281b6ec4",
+      "0x618dfedad8b621aebba23be7665e118fbd58c2d483148f601648f6f97043ff2f",
+      "0xd2ccbf88d51fa32690601b462585487472b4bc459e95228d85784a452860190b",
+      "0x9bd5efcdc905932c3eb13ee95f67835e0d44e61b616a026d856227fc06577ad4",
+      "0x7d74cc884b154039f3b18dd0319d0860b9f2db6229702083ee530999ef249189",
+      "0x53880de4b5600c05b8fc6f6d59b283eb2ca128c0c92dc7875e88a11cc13151e1",
+      "0x2d3d55aa4c1c83510d42631f0706d1a7a232c0cd95e7e171cf4a03eb9cf06967"   
+    ]
+  }
+}

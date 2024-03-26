@@ -1,0 +1,38 @@
+{
+  "name": "SushiSwap",
+  "cause": "Manipulate",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2021/1/25 20:07",
+    "transaction_hash": [
+      [
+        "0x90fb0c9976361f537330a5617a404045ffb3fef5972cf67b531386014eeae7a9"
+      ]
+    ],
+    "location": [
+      "0xe11fc0b43ab98eb91e9836129d1ee7c3bc95df50#contracts/SushiMaker.sol#1764:24"
+    ],
+    "detection": {
+      "time": "2021/1/25 20:17",
+      "link": "https://rekt.news/badgers-digg-sushi/"
+    },
+    "disclosure": {
+      "time": "2021/1/27 0:00",
+      "link": "https://slowmist.medium.com/slow-mist-sushiswap-was-attacked-for-the-second-time-a47f2d110a84"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x7df39084b561ee2e7809e690f11e8e258dc65b6128399acbacf1f2433308de6a",
+      "0xddd734c1f3e097d3d1cdd7d4c0ffae166b39992a1d055008bf6660b8c0b7582e",
+      "0x5c1d151599bbacc19a09dfee888d3be2ccf3e2fa781679b9e0970e18b3300e44",
+      "0x3bd2c9b17a4c6cc4a50369dcba9659e87ccada4bc378fae5b5824125347e8ff3",
+      "0xd66138aeb179b857e8f513a2a220c396cb00e35ad596b81562b4f7a94bf78e48",
+      "0xd9fc665489e3b4bed1e31d2ecb318819d05b3e8136af872929378fb73252ff3d",
+      "0x41a7f1a6e956ff0ce060bb9a2763da6bf8507c915ca5c4b2f84b17408dce4777",
+      "0xe27ae03bbf536a74f11901003bfd757a08e3ca6830de03325048e8d87995430b",
+      "0xb5a85cfd3d271934b41eb2b55dc6eef3d022118e3e00728a5969e1d6aaf2a175",
+      "0x09450b78ecc1e588e5545fc1769a8180f78ec999bec77ce1c00d792783e114b0"
+    ]
+  }
+}

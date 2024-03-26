@@ -1,0 +1,42 @@
+{
+  "name": "bZx(0913)",
+  "cause": "Token Duplication Incident",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2020/09/13 9:10",
+    "transaction_hash": [
+		["0x85dc2a433fd9eaadaf56fd8156c956da23fc17e5ef83955c7e2c4c37efa20bb5"],
+		["0x51296b581dcabc5d260c6b5b6eec2a2b03e317e8e54661dd2ab697b84f9112e9"],
+		["0xd8906a8ab71b5c772a07f301ccb7fa539cdce03a84d88e806c8de7bc5581a6cd"],
+		["0x783330d73a462e0a32b9b46ff139c3d6d5ff7e191746dc0f6a0b8bcffb0bcbb8"],
+		["0xbbfc69cb015b52f1e1ca8524a2452e80db4073983b73af796e0b01d147bf72d7"],
+		["0x1b4fc6de962c97944bfc33462b334f4c418fba4d54f3edea0ae3dc9fa3b1faf6"],
+		["0x1dcc24254a05a44f8bcedfb0673238c3ab4ab4e09555fee2370b327fb2410230"],
+		["0x54e45ce9b037a6e353284533958147a607ff0569670d62add99d5f5f3b9e09e9"],
+		["0x7b1d124f2978e974bdd6453b8e6c0235184b203c4264bfa316ddddf523bbb7eb"]
+    ],
+    "location": [
+      "0xde744d544a9d768e96c21b5f087fc54b776e9b25##35028:366"
+    ],
+    "detection": {
+      "time": "2020/9/13 17:24",
+      "link": "https://twitter.com/0x000000000marc/status/1305354469354303488"
+    },
+    "disclosure": {
+      "time": "2020/9/14 3:14",
+      "link": "https://twitter.com/k06a/status/1305223409610166275"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x8f19f90554fd63d2dc81e30507bf516d2434b2ba989ade69903d8d8107aae2f1",
+      "0xbd3890cf732bb52e2683af29677ab486e8ddf5339da3042bad8d719676d7715f",
+      "0xe83f5cfd08f984b3ad2a48f5147e17091482c90604ef756633d79a47d84a1526",
+      "0x6b37a2b36bd405c275d225d0a0d7923e20207f82c157b872e17fefce9489836c",
+      "0x673b7e3185cc783b9365b2a125385e9f6929a71c7fe1241ec816419f087b7d19",
+      "0x536ebee593d6aabc51d9312d25a240815ccf64d935d0e8e06dbfa5e28e127cbb",
+      "0x269eff952842585e37140b5535ac352e59cbbfec07b6e3c11eccfc5f0aeaf7c5",
+      "0x99a43a55ef93a346b0a9de4a3b0242efce24ad2734e58bb8668c70fdaf9cf827"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Nmbplatform",
+  "cause": "FlashLoan",
+  "platform": "BNBChain",
+  "fault": {
+    "time": "2022/12/14 03:40",
+    "transaction_hash": [
+      ["0x42f56d3e86fb47e1edffa59222b33b73e7407d4b5bb05e23b83cb1771790f6c1"]
+    ],
+    "location": [
+      "0x3aa2b9de4ce397d93e11699c3f07b769b210bbd5#contracts/contracts_BSC/Staking/StakingRewardsFixedAPY.sol#7546:35"
+    ],
+    "detection": {
+      "time": "2022/12/14 04:04",
+      "link": "https://twitter.com/BlockSecTeam/status/1602877048124735489"
+    },
+    "disclosure": {
+      "time": "2022/12/14 04:22",
+      "link": "https://twitter.com/BlockSecTeam/status/1602881707958407168"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x94b69eda7688285a694df2a4756003137f505b3c2fb58dd3b851aec397e45707",
+      "0xcbd4704f756f4301ca687252e7a0c2301c1eb4752618d99f9b706e4dee69d254",
+      "0x223394b3a488e8b4bda7903a11512524a293cc598862641df5775ff1184f7bc6",
+      "0xd668713df2b69630b9fa9c8eb53be7b627cc035ef276991f38d845baf32fd1f6",
+      "0x25b99f4daba238aa41579fe363c1b49461a19d4a603385a4f877b96389f05051",
+      "0xa246657480ebef3c77e405c519117e04e3fe994c7e6930ee1a533d034b9208d0",
+      "0x0383cc9571c2b97c3b4a376d3b757fb5d6d4759a2b9d7104aa1d9f7319a84a9d",
+      "0xa77ba5114ae21eae7ef7e1d9608ec5584f0822b9f20feb3661f3b26d15b151f6",
+      "0x8fe901bb4d175d70eb497bdcd95212fb531099dbc26b9252a647baf729209ebb",
+      "0xbb79d7c75a5522958688886834ace0eac9e1cd73cd31fb8be8698b3bd4a29152",
+      "0xb81e8cb7dd081580f668611c0e72c68fe1c28c8fd4a1b1631a921ef5cd6aabd3",
+      "0x71bc8bb474923d3ff38aaa08b6f98cbee8c216f6f6db476ad452b4c0e4d1a47e",
+      "0x9b149e2e65d467e2165610bdc7a5de3ef14ea76c738e06072f1b9dce274a5569",
+      "0x853f430399db5a938e3838f3565795c0c9b341b770a6420cf3d1b6e25de2a424",
+      "0xae0e893f21b519bde6dd41e6915b02eeaf8328621e711dae2f40a523110b5ccf",
+      "0x4eb302926f0ca7e8d89c40c1eb127d8d5371a73c3030b2ceaf0c65250b87d30b",
+      "0xaedda9b0b85543269b119d4ac0830eb20b79355295398e6156934481b729549f"
+    ]
+  }
+}

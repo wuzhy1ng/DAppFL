@@ -1,0 +1,42 @@
+{
+  "name": "Alchemix",
+  "cause": "Contract Vulnerability",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2021/6/16 12:15",
+    "transaction_hash": [
+      [
+        "0x3e86045bb9cde8f8cfcb5d943df531c7e68370c2d71cd631b1cee0950cf068f5",
+        "0xed3ea69b36024afb5389c3b940d46108a13fd31212992229d5c8257769cf8eeb",
+        "0x73df02bb2372d5a1f4278eb84d8222f90e12e4d0c9131c5831d0e62587bbe1bb",
+        "0x4fa64411ccd2982c43947a54b8e780ea6523da5c7e0c9545bf85697422b21577",
+        "0x3cc071f9f40294bb250fc7b9aa6b2d7e6ca5707ce4d6d222157d7a0feef618b3",
+        "0x38ecc8363836e43aca99d994bb9325a8f3770d7a1d1fffd62c82cf5230525836"
+      ]
+    ],
+    "location": [
+      "0x45f81ef5f2ae78f49851f7a62e4061ff54ff674b#contracts/TransmuterEth.sol#28191:902"
+    ],
+    "detection": {
+      "time": "2021/6/16 15:35",
+      "link": "https://twitter.com/AlchemixFi/status/1405187348678148101"
+    },
+    "disclosure": {
+      "time": "2021/6/17 07:43",
+      "link": "https://twitter.com/AlchemixFi/status/1405430945360998408"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x115f9ad8c58e5019a8bbd77202970b9306ec3bff66b9861a14e92d099e3c2336",
+      "0xeee47dce5113f75fae51ca6aa96767c9b74f594a20b51d58fca559c8142a289b",
+      "0x66c4ff9b511b36065acec10fe44025f9770de4baaf5af1d317ed52000047457b",
+      "0x16a833b25245739778c04a62fcd3f7162d2e600b1a784db8ded0ed3a24e074e8",
+      "0x167aea78139fa074535935159df9208ec2cb60cea5ac1869de374d3670fdb269",
+      "0xdbd2e16929dd6710681c8efb73fbf38eb366ad8e579b97cbcbe6f3598bceb218",
+      "0x14e84652bc17bb719784c1b7f9ce04cd59c4db2e069df4f8d55c51e8e3a9fac0",
+      "0xac6b8c107aee83377e68ff279dd9a63ccc866fbd5e675bb38c906b40c31528cf",
+      "0x6988f3b462ebaa08049d26d39f66e4bba0f2a88b83bebc9957fc4710d84ba959"
+    ]
+  }
+}

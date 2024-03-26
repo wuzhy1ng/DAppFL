@@ -1,0 +1,46 @@
+{
+  "name": "Wild Credit",
+  "cause": "Contract Vulnerability",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2021/5/27 3:56",
+    "transaction_hash": [
+      ["0xdbef3b393a64608756c284568217355f694a0e5c8edf80eac75ec087d642ce07"]
+    ],
+    "location": [
+      "0x277aa659750ab673b550d842c9e8aa1592ea5925##4393:6"
+    ],
+    "detection": {
+      "time": "2021/5/27 5:28",
+      "link": "https://twitter.com/WildCredit/status/1397786796675649538"
+    },
+    "disclosure": {
+      "time": "2021/5/27 12:12",
+      "link": "https://twitter.com/Mudit__Gupta/status/1397888546686398470"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x0c8f4c83840ca01c6c05c754740ec9c53ca2d2ed8e4d0518de0ee4121a92c56b",
+      "0x91f10a1d0ec91ee5c2431f616f52d10eac9a6d9b449f83e559aaf12cc94c8638",
+      "0xdbef3b393a64608756c284568217355f694a0e5c8edf80eac75ec087d642ce07",
+      "0x95793b2c265a517fbddb14df64f15d2f49affdedb739d303b09adf85bd7b4059",
+      "0x97ad769efd67a4178b54517c9ce7928a036af4547b62b0ea8d77b62d0ca1ef98",
+      "0xae4af4c749ac9b48c435bfc9da75e0977ac75a7795394c7d54a195e922f3f817",
+      "0x177b89fd481ac4f239538ac8feb816941f154b3bd112afb457cf85243d72f974",
+      "0x16bb0a077198371da065b4ed2b7b44be3462cde6134e51fc72d8bbb7a9f8fe6e",
+      "0xd29c12a3b50afb5077164acbacaf09aa0b5812fe5b50416d7b7a73ba520a9292",
+      "0x7570d5ca75965c7a8c52a9deaa3fc9a4e7c79c01a9f821f6883bfcc350ebedbc",
+      "0x0b52046c73b0fccfdc18a0743abb07e49f6a00d967f8a45729c17a03fc0b47c6",
+      "0xb36e3687a89bbbed54387983856542c6ab1d82558eee8bb8b84375e2569bd1e8",
+      "0x83babfac807bba1fff7a540fe2d8802adb9beabf363592150cf3ec2982fe79da",
+      "0xb55aa07c105ef8711eb7c04e20152daf42f6b0ae0a453ed99d91ffc0b5bcdaf1",
+      "0x9e4f8c9c496f442f175abe5bc2d7eaff4e8fa5f2cf1bf7716acd88c901db3e2e",
+      "0x17c8362ed5cb6f82a0371cc08e3634cc1710964d3e61503e818964cf19a3754b",
+      "0x5291b2d36548f9cbbcf0682859562931856b8bce2dae72bf982fadb0b934834b",
+      "0xf91c9735a53d51be378e09c7bc8f126bdb3fb81e25df4ce09adef9efb9f97203",
+      "0x5da738c7d7bbf1ff6c57d4daf22f6769c9f242d1c1105bafbcf1f44dfa162e40",
+      "0x3fbd61c58f055dc0339916d73a79afb12960d2f5a1279efd54e1d102ac8616dc"
+    ]
+  }
+}

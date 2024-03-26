@@ -1,0 +1,46 @@
+{
+  "name": "Qubit Finance",
+  "cause": "Logic bug",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2022/1/27 21:34",
+    "transaction_hash": [
+		["0xac7292e7d0ec8ebe1c94203d190874b2aab30592327b6cc875d00f18de6f3133"]
+    ],
+    "location": [
+      "0x80d1486ef600cc56d4df9ed33baf53c60d5a629b#contracts/bridge/QBridgeHandler.sol#5764:64"
+    ],
+    "detection": {
+      "time": "2022/1/27 23:19",
+      "link": "https://twitter.com/peckshield/status/1486841239450255362"
+    },
+    "disclosure": {
+      "time": "2022/1/28 7:33",
+      "link": "https://twitter.com/QubitFin/status/1486965562903531522"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0xff6fa990d4f6cf85592f7fb32840539e6dad20fda4e547acb1a4bbb969d99ba9",
+      "0x7f537463d055f32b49050a7e2179461666a9494deb7045d7825d72c210168298",
+      "0xf9fc1d6d613437eeffe2389949e0f7e34069fd4efe402f166a59e52714fcca74",
+      "0x8461a2ea5ba8fa2ce39db22492c4469b71312400aa467b1b8082e390d7c68415",
+      "0x9ec5ed248fab6bb944e6595128e3085a8b9607e9f273e1aedf504e07c73f82f7",
+      "0xd2371a42930d2ab1a383af2026b6437e08461bc0fcd046908937a1936e3fd2e2",
+      "0xa5745e682af41333f26191f4d5edaba2fd80f9349524751a993660731ac729d2",
+      "0x84e2fbb62fb150e1d9724ac66b698b2f860e77fffb9e0937aed608ae7b43b1bf",
+      "0xc7e924ad8fd6b1bb6dc532c8ac5053600c123f1b401fd5804f93f2aa3b2c56fa",
+      "0xc4a5dc3eca82b4f95f9e8cc34c7d0e7bc3af717768892fc5e49161e6a5bd1380",
+      "0x2ee0e6ff3cd5ce1778ef5765738fc4589fb05b28a8af90c06b4a6f96e9d8e0da",
+      "0x5b18b58ebe1615b797c1a14474d2aeecfa89f05e4189622b1ae074c898871cee",
+      "0xfeab17fc905c3a90392ef3b3f16d89b8d2dc55b660fa06281480692e988e05d3",
+      "0x80670ffa1c5a60a70593263a3a359e57926ddc014d68426c345779f06dacc8bf",
+      "0x874b126d45fb656ef1dad3cc1e4f5f0353d2cadc1d6ee3bdeeb763797ad5f943",
+      "0xe15c450f7ef1960834572266e312eaed8c8766439c35af17622513a310bdbeca",
+      "0xb5ad5639c2ebe4da580c90a0cb4372582e6a7f8d0e3592e8db9f5f3f65128777",
+      "0x60227798c91b76cca3ce5b21ebcbb89cf8da341a77d7b2938e1a913e996f0bd8",
+      "0xfd8e72f52a220c3a991b329830a14e7a9dcb5a9ba4d6871485c57ded63d2f434",
+      "0x1f1ff2c4eac9d904f1b50156912dde064d33ce8425318d880403c1756e692a8a"
+    ]
+  }
+}

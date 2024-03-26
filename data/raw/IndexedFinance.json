@@ -1,0 +1,47 @@
+{
+  "name": "Indexed Finance",
+  "cause": "FlashLoan",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2021/10/14 18:37",
+    "transaction_hash": [
+		["0x44aad3b853866468161735496a5d9cc961ce5aa872924c5d78673076b1cd95aa"],
+        ["0xbde4521c5ac08d0033019993b0e7e1d29b1457e80e7743d318a3c27649ca4417"]
+    ],
+    "location": [
+      "0x120c6956d292b800a835cb935c9dd326bdb4e011#temp-contracts/MarketCapSqrtController.sol#13062:597"
+    ],
+    "detection": {
+      "time": "2021/10/14 19:11",
+      "link": "https://twitter.com/ndxfi/status/1448728249312423946"
+    },
+    "disclosure": {
+      "time": "2021/10/15 4:40",
+      "link": "https://twitter.com/ndxfi/status/1448856180697280514"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x8c5dfe83bfc399101d580013e9f98aa6f57f410fba9a59f5f202b2f51a19711e",
+      "0xaf361c93367d81725207196a88b50c6bf376afaee0f11790d8e6de1340746f95",
+      "0x471d245db81a84987b3416f2eeeefea876fed06375a7de6e0143e2c2d190c742",
+      "0x8de4c98c0237e752f735539bc482c0d3ad352d497a7db0c8ac8538cc7d2bf206",
+      "0xded1b1782a82a8ef29afaa71ac9b38f6977c9a6bb3e803cc40d76ec3c9d9cb8f",
+      "0x2ac3487d1361cd9ade07cc35e311bb69328f526ce5b7ef537557e42ad596a851",
+      "0x4e74ec42dcc8822cb067b7367b26855f9090f4ef698dc730e9ca105248d90324",
+      "0x3dcae3e1cd171a301b7e17b689ebec38e1f9629a9fb97190a2698576e3d2fed4",
+      "0x20513008e68262e26aa9e11cd6c2dc6a6784dcea872e1bf8587773bd587a3c9f",
+      "0x0776d42180e3848d64ba290b5035e431c06d8e872af0ee4d8e3a720d5a1a9a1d",
+      "0x9fae42bbd5b3676bf336db6dab601a60065a4b18bad8a186f2d61ad474edcfd8",
+      "0x0a5cd4126ee338829f813321580640177ce1ba67870a188204fd461c904a9b45",
+      "0x386e27fadc322e1ca9e1344e36a89575d1e6521dfaf6452336ea78e3560ba62f",
+      "0x35c42b07d7ff5c1eb646e58f42a8ea264403446a2f5273300c41b800c1166f4d",
+      "0x039c52acb2da3599ae253418d5d8f712629701751b425dad92ae7ce7adb827bc",
+      "0xafa1fa806392521658cae631341e4e9f250f55b7c1729f7c32c6f4c612216e98",
+      "0x2e30a60656490cff7d82ac99cb95f5b30a16669baa1970baf144c5e52b5917b8",
+      "0x55ad7ca5045c2876a2c2577a8cfa71a1c7175e6c392cd3b18e81b9a431e3cd7e",
+      "0xeb6f90a2238da58e0b4d11d045e30d5103aba5c7fb7b5d1edb83a7776ab9d12d",
+      "0xdbe8293bed86293ef0ca792d128887fcd319c864a462632bf243aabb10f338dc"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "PancakeHunny",
+  "cause": "uncorrected use balanceOf to calculate profit",
+  "platform": "BNBChain",
+  "fault": {
+    "time": "2021/6/3 2:24",
+    "transaction_hash": [
+		["0x765de8357994a206bb90af57dcf427f48a2021f2f28ca81f2c00bc3b9842be8e"]
+    ],
+    "location": [
+      "0x109ea28dbdea5e6ec126fbc8c33845dfe812a300##105287:83"
+    ],
+    "detection": {
+      "time": "2021/6/3 5:06",
+      "link": "https://twitter.com/HunnyFinance/status/1400317982400684038"
+    },
+    "disclosure": {
+      "time": "2021/6/3 13:26",
+      "link": "https://twitter.com/HunnyFinance/status/1400443773436399617"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0xb0d5dcc814c63d8b01adbbd6eb9dd72ccbdc46b9e226ed0e62c71e538ff6585e",
+      "0x70e1b4727b6f8d83303df3acd629060a210354f5d4cd34d62fd7543a5c399616",
+      "0xe02dc489630c59e71bbd87f3956269a6e5b483bf26d6230dc484962fc8c2f551",
+      "0x9b599128979cbb51c85627b5ba642a1fc78c7f9609ff8079f811c3b7dae6421e",
+      "0xeddd70e10166865900f5352e1f19b0e039fef935384ca89b3e5b639a653c11ad",
+      "0x632e5f191657ec5c060121466d82a6903390407a1361c1b1d8e9a7863a11a814",
+      "0x1d8e3f082f29025592395cc1d6f3827ad86a08d068cc725d1c33b1aa3c36a221",
+      "0xd8cc199091b4bda97c16709c52e7d0e6dcfcd8deafd7cdbdd4e5049f6e15f090",
+      "0x1640b9bf69122d4de059df22a72abbdc26d7cb03171fad0949f3df59e3eeb5bb",
+      "0x1fc22bcfbc3f89c44d3835c3b41d5108745c466695a9af4ad6cd7341a4605ba5",
+      "0xb17192d8e6f8641241ba11d01704802d921084a955ff119224ca64cd0460cc7a",
+      "0xc54a34e784fea737c842b5d3b5a98531ad4f9bf63f8eec84ab00b31fb2d70945",
+      "0xd3cf73c9a18ba4084eb02f9c28606451274c176301f57ea36fe405765d8494c8",
+      "0x4905caa98a412b6d3e255c6c448316de0dcdf6d3ad9e2b5f31318752fc51b36d"
+    ]
+  }
+}

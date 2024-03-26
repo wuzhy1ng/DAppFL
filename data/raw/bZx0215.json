@@ -1,0 +1,46 @@
+{
+  "name": "bZx(0215)",
+  "cause": "Arbitrage",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2020/2/15 1:38",
+    "transaction_hash": [
+		["0xb5c8bd9430b6cc87a0e2fe110ece6bf527fa4f170a4bc8cd032f768fc5219838"]
+    ],
+    "location": [
+      "0xc77ee4283b6853900282d5fc498555f642aa52a7##41932:87"
+    ],
+    "detection": {
+      "time": "2020/2/15 2:46",
+      "link": "https://twitter.com/defipulse/status/1228698197863755776"
+    },
+    "disclosure": {
+      "time": "2020/2/18 0:00",
+      "link": "https://peckshield.medium.com/bzx-hack-full-disclosure-with-detailed-profit-analysis-e6b1fa9b18fc\n"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0xebf9584e7b9235b8232774916ebfe0993d5bf8ce67b85ec3a64b148fd27a93e5",
+      "0xd6b326c038cd0a3d61e1187c27d47441ceb704a7b4092335843f2a1899b77381",
+      "0x3dca03011333d8e70891dbd565ff5267c721ee3d6a55fe5ea3c21031e80c231d",
+      "0x08aece94dea3f34d39f0d6fb7dd3a2f7bc0002fbc1bbb2c44e8a9dd44b39e16e",
+      "0xd56538a3915dea820ecd03278fd7f2f5689cd7a0371936932e5f6bd0843131ae",
+      "0x29c697a699cea1cbbe46729c72c4d5164244dd8d2bbb035340d88834f43c63c9",
+      "0x591e1cdd6a427b46344bd745865a5b158505d20b7f73ae675a7a094fd5d7f8ad",
+      "0x949af1ab1652c839a8a2440e628dfc1560a0816755081c226fc0f990b2dc4667",
+      "0xf5eafb8064c8b8e9fbd7ad60039e4853aee64aa8492126ef7ca81a3718ac08ad",
+      "0x6fe76825b7aedca30ac8201e925a9a31ae49a48326c4d6d255b8a771c4201898",
+      "0x47be144d4214bed663aa020b4dc37848f397c8c613e4c6a5967138e23846c19e",
+      "0x66a3a84cf019fd003eb9a6f91e8b5b829bdb00738f46ee191253bd463807d047",
+      "0x55b5651d657fc4787006e7bd59ee3a1a3b7607bb072ea8329a57b0a2e2653726",
+      "0x48cce7a90e1ece5898c1afcbc08d0d175e8f31d58b6dee8c810afc9d22f6afdf",
+      "0x01f5ebdf91aff85812f5f9305944fd59b586c527c2ff35068394caeecbc8274a",
+      "0x993b60748e3fbb1627de0deeb005bd7fedee91a898881ee38c639da6ccb7c55b",
+      "0x96aab2607b780a84f06c081e96a6a10f49e42057e4d4e5eee022b180e45e1788",
+      "0x2388e1e11008b4f3db4236ed2d0bc65a6bcc9f75e47ec0c49e70e7abd8bf84d5",
+      "0xe98a84c2ecd963599a2fe247af179f02ec411b75231d71ee04c4f90caf7383f5",
+      "0xc9e5bf9698852125dba209bfca289a7f712026499d9a2c5994ee6e2eb005470c"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Beanstalk",
+  "cause": "Malicious code logic",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2022/4/17 12:24",
+    "transaction_hash": [
+      [
+        "0xd09b72275962b03dd96205f8077fdc08bec87c0ebd07e431aadc760f31f34b01",
+        "0x68cdec0ac76454c3b0f7af0b8a3895db00adf6daaf3b50a99716858c4fa54c6f",
+        "0x9575e478d7c542558ecca52b27072fa1f1ec70679106bdbd62f3bb4d6c87a80d",
+        "0x677660ce489935b94bf5ac32c494669a71ee76913ffabe623e82a7de8226b460",
+        "0xcd314668aaa9bbfebaf1a0bd2b6553d01dd58899c508d4729fa7311dc5d33ad7"
+      ]
+    ],
+    "location": [
+      "0xf480ee81a54e21be47aa02d0f9e29985bc7667c4#contracts/farm/facets/GovernanceFacet/VotingBooth.sol#705:74",
+      "0xf480ee81a54e21be47aa02d0f9e29985bc7667c4#contracts/farm/facets/GovernanceFacet/GovernanceFacet.sol#6818:71"
+    ],
+    "detection": {
+      "time": "2022/4/17 13:15",
+      "link": "https://twitter.com/peckshield/status/1515680335769456640"
+    },
+    "disclosure": {
+      "time": "2022/4/17 14:02",
+      "link": "https://twitter.com/peckshield/status/1515692144190648322"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x46e782cfb55b3f6849b1d501f26b77faa0c49580de0cff8a4a6dc1a248c526db",
+      "0xcf68134279ba781a9de834af8f6ba2c4ceeaf32e78f2c445a274fa806c7f5c78",
+      "0xe5b3ff1d06f06cc17c6e7f6e332c978e6b322ceaebada237f374930afecb9fa7",
+      "0x78ad322694c9489be13d5f31337397211c193e11ab7500414c0a50be22e4ae25",
+      "0x5e155193578c34d140710585a2c26261e98e4f98a01af2ead9a9dcc1f560023e",
+      "0xf0e13c44b2b5721de9ffa0c581f8e2e7863c4730c86e004823f5c3ab8bf00e0e",
+      "0x524c6625456050abc6de9d51a252e292d9f1d83b731988b39a033a72e44e5d57",
+      "0x89a22d72ccf19126ea9fa9a10ed94d86804380e1bba58d8354acf8314d214f88",
+      "0x70842b7afc1fdc3f72667e91acc99541ee516352b6c1788c602deacc780072e7",
+      "0xcf33bc3df017f33c5bc1ea4583b3ac0b5d204f7bf3e984ded9d5e42b53ab46cc",
+      "0xb6db54f2aa74296e3141bf410dd025a19d6ec6debaf692e9149f2985aedf63a7",
+      "0xc57b7aa1f9217c8a0b6872018c213fd6b463d4e50b8b268f0a04416ce375f206",
+      "0x70add715fefaebf429d58f0a86f0c02f60bba6dd6517a1f20610661fc95c1ebc",
+      "0x641b2d6ccc75c7704edaf612da4ccd53748ec7cebb7ccbe3adb7d542916f66ea",
+      "0x3787b1c3c52fbd4e5d5a3b368d2cec32a7863a1186acb44141a33ebb5752dfee",
+      "0x3816e17751d4e99cf99403fd99e612769cc5b1c66db7b86e8045d5207b2cc2bf",
+      "0x49a7873ccbe85a888a109d8ad7202fae598eca32cbb007551bb8aec42ae82f84",
+      "0x814217a5efd5b9cbee56cd8c75cbce652154b5ed4447eb55b72fb73e096c28bc",
+      "0x25d74f1aacc59d098a6d51fc534faa73fc9f0b427844e15d1ffd153e53a55d30"
+    ]
+  }
+}

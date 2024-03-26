@@ -1,0 +1,52 @@
+{
+  "name": "XCarnival",
+  "cause": "Lack of judging",
+  "platform": "Ethereum",
+  "fault": {
+    "time": "2022/6/26 12:03",
+    "transaction_hash": [
+      [
+        "0x1149b8285bedd6e858c225d0cd187818e66ae12a0dd4de8de98ea132e3d1470c",
+        "0x605488dd5595e9e29a085ca26d7c377dded5fa96099cc33b6193c1b00effed23",
+        "0xd14beb55a20f7d050a3a93320c5cad387041312c4c29fe3b133ebe8a2165d59b"
+      ],[
+        "0xc417ba285a06a0e493ee0ae692217633e11aac50999c7a5474bee966cda2d461",
+        "0x0163856aaa678676b22e072186c1bdc55ed44a5a0e2cf44500362800663ddce9",
+        "0xf1dcc5e32839fb5c17ffe9322fab8d954512e578fccbdf2b533d9e0d91a72f6c",
+        "0x66b1d24442e2a0fc1d4670c543b2f66e952588399f72149975b6c4d259074ca5"
+      ]
+    ],
+    "location": [
+      "0x39360ac1239a0b98cb8076d4135d0f72b7fd9909#contracts/XNFT.sol#12153:103"
+    ],
+    "detection": {
+      "time": "2022/6/26 13:14",
+      "link": "https://twitter.com/peckshield/status/1541047171453034501"
+    },
+    "disclosure": {
+      "time": "2022/6/27 09:16",
+      "link": "https://medium.com/coinmonks/xcarnival-attack-analysis-1e5722f03a09"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0x2e4d7f9940f2940be1f8bb61d35d8ca0225c73ef97332a6db5fcf5ddff156f18",
+      "0x58cb07cdd7056f523e841a8a8a84dec035174a7e687617aa506b6661ab223b31",
+      "0x222c2d54ff04c5dd0ba19f7642b6f691339ec9cd6e949b4bdcb8f6d74d22702e",
+      "0xc8ae5a33f0d56978cfe09d30916b79335dc261eee021d57ff56295ea937eb084",
+      "0x43a0514526b984297cb03095c41f17e6b0f3eb6bf4839f3f0e272d13c1b56722",
+      "0xe3c0fb08949ca09f2a0b4641deb1ca0e64537f0a6338850cb91116f90892a517",
+      "0x579981f7516492d924c0c973f9776121a6494ae7baa6798031daa293d55ee8cd",
+      "0x94b88fb785eefe42ec8fc03035c495a1740f5f8fc3cc977300569e105859d4cc",
+      "0x45d0d81bae51bb376efd758f9e8c5641387c6d40f7ac163a0f250ad15dbe4285",
+      "0x1807e755405fff54f9f828a0433b535981d04a4909ce11581ceb5956e88d4cf0",
+      "0x8e8a70f2f4371ff8c91d2966141f7a8469ddd9b2106ab9b41b29c11d135f34b5",
+      "0x1919b4af8e4599d48a60b580df9f8adc0f3803b1f45b422aaba07116a1a2bb9f",
+      "0x65c6e73fd8be1b113b67f2426f8bda226116cfa7c41112bb959dfe86164b30a9",
+      "0x974157afacfb697832f1724ed9ba6c05f44896190a44ebc1d92f68bffe819334",
+      "0xc81bb0a29875bcf4c36027e9cb57fe749bb01ed7cf106a812bd7de8698a32480",
+      "0x579981f7516492d924c0c973f9776121a6494ae7baa6798031daa293d55ee8cd",
+      "0x48085239ff06c312b894e3ffff4abc2b10426d010f84ad8f2627ab019cc8cb6a"
+    ]
+  }
+}

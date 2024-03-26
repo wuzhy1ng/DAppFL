@@ -1,0 +1,48 @@
+{
+  "name": "Eleven Finance",
+  "cause": "Logic bug",
+  "platform": "BNBChain",
+  "fault": {
+    "time": "2021/6/22 22:58",
+    "transaction_hash": [
+		["0x6450d8f4db09972853e948bee44f2cb54b9df786dace774106cd28820e906789"],
+        ["0xeaaa8f4d33b1035a790f0d7c4eb6e38db7d6d3b580e0bbc9ba39a9d6b80dd250"],
+        ["0x153eeae811a9acedad4dc76492316d5503a02ad8a324563a50b7118b4f574469"]
+    ],
+    "location": [
+      "0x27dd6e51bf715cfc0e2fe96af26fc9ded89e4be8##41383:304"
+    ],
+    "detection": {
+      "time": "2021/6/22 23:24",
+      "link": "https://twitter.com/peckshield/status/1407479655142100994?s=20"
+    },
+    "disclosure": {
+      "time": "2021/6/23 0:02",
+      "link": "https://twitter.com/peckshield/status/1407489245468524549"
+    }
+  },
+  "faultless": {
+    "transaction_hash": [
+      "0xe4b9510025990330305b6bfaa11bc4986152be8664d88270ae6f2ff9c97adb7e",
+      "0xb34a43aa65abcf1dbf479938844abd17a4a3cf4ca38f04ea8ac8132cff492411",
+      "0xb46333bdd17975cccd1ff061c8062e98dd29c42b80d1b21d0f869203d9422324",
+      "0x3b912d315a93b5884ccc680bcbf635bcef38b24244350ca611b50eb2923a6eed",
+      "0x55df2d07df7860cab79a57c8c3818095bffd71b032a65359a79b1eaa003163ff",
+      "0x55da73bbb544f012a766a302d3d83a26977198820fba704a5d0b0e69356d1b45",
+      "0xf1fd1ea7b61a173b4ab8b5b86dde9e3332f0699aca401ee36c4d9245cca363f0",
+      "0x92d4045d701f7fa89cf497acc82f7488c91e54aa12068443deae070950ca270c",
+      "0x44f31570214c9716c2c51eccfadae93e1171cb7b20099371f1ee0a10e44ec715",
+      "0x85e02cad0b0ecf0db7c7f35eaa7c790575db4b08a079e513b6f3d31138c78124",
+      "0xbbcd27ec2d99b49f49cfab3270124de410e8f0a0839f0126da155f82e1d3aa8d",
+      "0x86fe6126c6393a411aca2364d6ab6a99b7f7ff4408b26213a992b44e64d5623b",
+      "0x864c893f6d2d6ccbd9f6cde5adf5fc27aed660cdfc87ca5a9e14326b14f9bf93",
+      "0x73c3207adb1029d768dd4b87e59b1b852dc0fcde17ed17e426c94946152ab3f8",
+      "0x1fe7c0719561f579b287a6c4fa32bc2333b89beaf3a4b46276e05a721d7f06f1",
+      "0x2c00d37a11653891ab827ea61b075bfafd88abf401c6fe38ecd8c20def63ce85",
+      "0x16ae8fb06646ddb580b2126ea442d290059e96c194ff6044389a3a260fc43509",
+      "0x0552ad176ba2df91fd1cedd82c95b91f0749921f84775782a69ed36e8e3be93b",
+      "0x4ee283c770f10aa0d556207f570c3493b9b29902a4c6980f778ebdd501134fa4",
+      "0xa92b9a08317ce6e54253656f8bace63dacebd853cd865fba3992ab7d998e0b44"
+    ]
+  }
+}
