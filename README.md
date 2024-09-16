@@ -1,6 +1,6 @@
 # DAppFL
 
-A basic implementation of DAppFL.
+A basic implementation of "DAppFL: Just-in-Time Fault Localization for Decentralized Applications in Web3", ISSTA 2024.
 
 # Installation
 
